@@ -1,0 +1,2037 @@
+0SECTION       TITLE subcomponent dump routine
+NULL           ===============================
+1TICHARSET     UTF-8
+1TISIGINFO     Dump Event "traceassert" (00080000) received
+1TIDATETIME    Date: 2021/04/16 at 11:06:14:655
+1TINANOTIME    System nanotime: 4525297982600
+1TIFILENAME    Javacore filename:    /mnt/c/Users/ASUS/Documents/Praxis/01-02/Seriliasisasi/javacore.20210416.110614.6420.0002.txt
+1TIREQFLAGS    Request Flags: 0x81 (exclusive+preempt)
+1TIPREPSTATE   Prep State: 0x100 (trace_disabled)
+1TIPREPINFO    Exclusive VM access not taken: data may not be consistent across javacore sections
+NULL           ------------------------------------------------------------------------
+0SECTION       GPINFO subcomponent dump routine
+NULL           ================================
+2XHOSLEVEL     OS Level         : Linux 4.4.0-19041-Microsoft
+2XHCPUS        Processors -
+3XHCPUARCH       Architecture   : amd64
+3XHNUMCPUS       How Many       : 8
+3XHNUMASUP       NUMA is either not supported or has been disabled by user
+NULL
+1XHERROR2      Register dump section only produced for SIGSEGV, SIGILL or SIGFPE.
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       ENVINFO subcomponent dump routine
+NULL           =================================
+1CIJAVAVERSION JRE 1.8.0 Linux amd64-64 (build 1.8.0_282-b08)
+1CIVMVERSION   20210120_930
+1CIJ9VMTAG     openj9-0.24.0
+1CIJ9VMVERSION 345e1b09e
+1CIJITVERSION  345e1b09e
+1CIOMRVERSION  741e94ea8_CMPRSS
+1CIJCLVERSION  ab07c6a8fd based on jdk8u282-b08
+1CIVENDOR      AdoptOpenJDK
+1CIPRODUCT     OpenJDK
+1CIEXTVERSION  8.0.282.0
+1CIJITMODES    JIT enabled, AOT enabled, FSD disabled, HCR enabled
+1CIRUNNINGAS   Running as a standalone JVM
+1CIVMIDLESTATE VM Idle State: ACTIVE
+1CICONTINFO    Running in container : FALSE
+1CICGRPINFO    JVM support for cgroups enabled : FALSE
+1CISTARTTIME   JVM start time: 2021/04/16 at 11:06:13:599
+1CISTARTNANO   JVM start nanotime: 4524241736000
+1CIPROCESSID   Process ID: 6420 (0x1914)
+1CICMDLINE     [not available]
+1CIJAVAHOMEDIR Java Home Dir:   /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre
+1CIJAVADLLDIR  Java DLL Dir:    /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/bin
+1CISYSCP       Sys Classpath:   /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/jclSC180/vm.jar;/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/se-service.jar;/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/rt.jar;/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/resources.jar;/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jsse.jar;/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/charsets.jar;/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jce.jar;
+1CIUSERARGS    UserArgs:
+2CIUSERARG               -Xoptionsfile=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/options.default
+2CIUSERARG               -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+2CIUSERARG               -Xjcl:jclse29
+2CIUSERARG               -Dcom.ibm.oti.vm.bootstrap.library.path=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64
+2CIUSERARG               -Dsun.boot.library.path=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64
+2CIUSERARG               -Djava.library.path=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64:/usr/lib64:/usr/lib
+2CIUSERARG               -Djava.home=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre
+2CIUSERARG               -Djava.ext.dirs=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext
+2CIUSERARG               -Duser.dir=/mnt/c/Users/ASUS/Documents/Praxis/01-02/Seriliasisasi
+2CIUSERARG               -Djava.class.path=.
+2CIUSERARG               -javaagent:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2021.1/lib/idea_rt.jar=51589:C:\Program Files\JetBrains\IntelliJ IDEA 2021.1\bin
+2CIUSERARG               -Dfile.encoding=UTF-8
+2CIUSERARG               -Djava.class.path=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/charsets.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/cldrdata.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/dnsns.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/dtfj.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/dtfjview.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/jaccess.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/localedata.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/nashorn.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/sunec.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/sunjce_provider.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/sunpkcs11.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/traceformat.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/ext/zipfs.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jce.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jsse.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/management-agent.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/resources.jar:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/rt.jar:/mnt/c/Users/ASUS/Documents/Praxis/01-02/Seriliasisasi/out/production/Seriliasisasi
+2CIUSERARG               -Dsun.java.command=serial.contoh1
+2CIUSERARG               -Dsun.java.launcher=SUN_STANDARD
+2CIUSERARG               -Dsun.java.launcher.pid=6420
+NULL
+1CIUSERLIMITS  User Limits (in bytes except for NOFILE and NPROC)
+NULL           ------------------------------------------------------------------------
+NULL           type                            soft limit           hard limit
+2CIUSERLIMIT   RLIMIT_AS                        unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_CORE                      unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_CPU                       unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_DATA                      unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_FSIZE                     unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_LOCKS                     unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_MEMLOCK                       65536                65536
+2CIUSERLIMIT   RLIMIT_NOFILE                        65536                65536
+2CIUSERLIMIT   RLIMIT_NPROC                          7823                 7823
+2CIUSERLIMIT   RLIMIT_RSS                       unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_STACK                       8388608              8388608
+2CIUSERLIMIT   RLIMIT_MSGQUEUE                     819200               819200
+2CIUSERLIMIT   RLIMIT_NICE                              0                    0
+2CIUSERLIMIT   RLIMIT_RTPRIO                            0                    0
+2CIUSERLIMIT   RLIMIT_SIGPENDING                     7823                 7823
+NULL
+1CIENVVARS     Environment Variables
+NULL           ------------------------------------------------------------------------
+2CIENVVAR      USER=eciyyy
+2CIENVVAR      HOME=/home/eciyyy
+2CIENVVAR      OLDPWD=/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2021.1/jbr/bin
+2CIENVVAR      WSL_DISTRO_NAME=Ubuntu-20.04
+2CIENVVAR      LOGNAME=eciyyy
+2CIENVVAR      NAME=Eciyyy-meong
+2CIENVVAR      TERM=xterm-256color
+2CIENVVAR      PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/xampp/php:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/ASUS/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/ASUS/AppData/Local/Microsoft/WindowsApps:/mnt/d/flutter:/mnt/c/Users/ASUS/AppData/Roaming/npm
+2CIENVVAR      LANG=C.UTF-8
+2CIENVVAR      SHELL=/bin/sh
+2CIENVVAR      PWD=/mnt/c/Users/ASUS/Documents/Praxis/01-02/Seriliasisasi
+2CIENVVAR      HOSTTYPE=x86_64
+2CIENVVAR      WSLENV=
+NULL
+1CISYSINFO     System Information
+NULL           ------------------------------------------------------------------------
+2CISYSINFO     Hypervisor name = Hyper-V
+NULL
+1CICPUINFO     CPU Information
+NULL           ------------------------------------------------------------------------
+2CIPHYSCPU     Physical CPUs: 8
+2CIONLNCPU     Online CPUs: 8
+2CIBOUNDCPU    Bound CPUs: 8
+2CIACTIVECPU   Active CPUs: 0
+2CITARGETCPU   Target CPUs: 8
+2CIJITFEATURE  CPU features (JIT): fpu cx8 cmov mmx sse sse2 ssse3 fma sse4_1 popcnt aesni osxsave avx
+2CIAOTFEATURE  CPU features (AOT): fpu cx8 cmov mmx sse sse2 ssse3 fma sse4_1 popcnt aesni osxsave avx
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       NATIVEMEMINFO subcomponent dump routine
+NULL           =================================
+0MEMUSER
+1MEMUSER       JRE: 2,734,335,208 bytes / 2112 allocations
+1MEMUSER       |
+2MEMUSER       +--VM: 2,444,749,040 bytes / 1882 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Classes: 71,965,760 bytes / 230 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Shared Class Cache: 67,108,960 bytes / 2 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 4,856,800 bytes / 228 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Memory Manager (GC): 2,150,928,584 bytes / 509 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Heap: 2,108,616,704 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 42,311,880 bytes / 508 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Threads: 12,428,312 bytes / 155 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Stack: 309,008 bytes / 21 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Native Stack: 11,927,552 bytes / 22 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 191,752 bytes / 112 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Trace: 207,480 bytes / 279 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JVMTI: 36,512 bytes / 31 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--JVMTI Allocate(): 176 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 36,336 bytes / 30 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JNI: 41,040 bytes / 75 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Port Library: 208,015,752 bytes / 78 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Unused <32bit allocation regions: 208,003,312 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 12,440 bytes / 77 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 1,125,600 bytes / 525 allocations
+1MEMUSER       |
+2MEMUSER       +--JIT: 289,572,016 bytes / 205 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JIT Code Cache: 268,435,456 bytes / 1 allocation
+2MEMUSER       |  |
+3MEMUSER       |  +--JIT Data Cache: 2,097,216 bytes / 1 allocation
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 19,039,344 bytes / 203 allocations
+1MEMUSER       |
+2MEMUSER       +--Class Libraries: 14,152 bytes / 25 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--VM Class Libraries: 14,152 bytes / 25 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--sun.misc.Unsafe: 2,656 bytes / 7 allocations
+4MEMUSER       |  |  |  |
+5MEMUSER       |  |  |  +--Direct Byte Buffers: 528 bytes / 6 allocations
+4MEMUSER       |  |  |  |
+5MEMUSER       |  |  |  +--Other: 2,128 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 11,496 bytes / 18 allocations
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       MEMINFO subcomponent dump routine
+NULL           =================================
+NULL
+1STHEAPTYPE    Object Memory
+NULL           id                 start              end                size               space/region
+1STHEAPSPACE   0x00007FA0E0094E10         --                 --                 --         Generational
+1STHEAPREGION  0x00007FA0E0095A80 0x0000000082520000 0x0000000082B20000 0x0000000000600000 Generational/Tenured Region
+1STHEAPREGION  0x00007FA0E00954B0 0x00000000FFE00000 0x00000000FFF00000 0x0000000000100000 Generational/Nursery Region
+1STHEAPREGION  0x00007FA0E0094EE0 0x00000000FFF00000 0x0000000100000000 0x0000000000100000 Generational/Nursery Region
+NULL
+1STHEAPTOTAL   Total memory:                     8388608 (0x0000000000800000)
+1STHEAPINUSE   Total memory in use:              1923992 (0x00000000001D5B98)
+1STHEAPFREE    Total memory free:                6464616 (0x000000000062A468)
+NULL
+1STSEGTYPE     Internal Memory
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x00007FA0E006F3E0 0x00007FA0A6FA0030 0x00007FA0A700CA90 0x00007FA0A70A0030 0x00800040 0x0000000000100000
+1STSEGMENT     0x00007FA0E006F250 0x00007FA0CC830000 0x00007FA0CC840000 0x00007FA0CD830000 0x01000440 0x0000000001000000
+1STSEGMENT     0x00007FA0E006F188 0x00007FA0DD940030 0x00007FA0DDA40000 0x00007FA0DDA40030 0x00800040 0x0000000000100000
+NULL
+1STSEGTOTAL    Total memory:                    18874368 (0x0000000001200000)
+1STSEGINUSE    Total memory in use:              1559088 (0x000000000017CA30)
+1STSEGFREE     Total memory free:               17315280 (0x00000000010835D0)
+NULL
+1STSEGTYPE     Class Memory
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x00007FA0E02042F0 0x00007FA0AC472DD0 0x00007FA0AC479F38 0x00007FA0AFFFFFF8 0x00020104 0x0000000003B8D228
+1STSEGMENT     0x00007FA0E0204228 0x0000000000007928 0x0000000000007DC0 0x0000000000007DC0 0x00010040 0x0000000000000498
+1STSEGMENT     0x00007FA0E0204160 0x00007FA0E014B340 0x00007FA0E014B690 0x00007FA0E014B720 0x00020040 0x00000000000003E0
+1STSEGMENT     0x00007FA0E0204098 0x00000000001A40E8 0x00000000001AC0E8 0x00000000001AC0E8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0203FD0 0x000000000019C098 0x00000000001A4098 0x00000000001A4098 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0203F08 0x0000000000194048 0x000000000019C048 0x000000000019C048 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0203E40 0x000000000018BFF8 0x0000000000193FF8 0x0000000000193FF8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0203D78 0x0000000000175E08 0x000000000017DE08 0x000000000017DE08 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0203CB0 0x000000000016DDB8 0x0000000000175DB8 0x0000000000175DB8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0203BE8 0x0000000000162188 0x000000000016A188 0x000000000016A188 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0163E50 0x000000000015A138 0x0000000000162138 0x0000000000162138 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0163D88 0x000000000014E508 0x0000000000156508 0x0000000000156508 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0163CC0 0x00000000001464B8 0x000000000014E4B8 0x000000000014E4B8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0163BF8 0x00007FA0E01D9300 0x00007FA0E01DB3D0 0x00007FA0E01F9300 0x00020040 0x0000000000020000
+1STSEGMENT     0x00007FA0E0163B30 0x000000000013E468 0x0000000000146468 0x0000000000146468 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0163A68 0x0000000000136418 0x000000000013E418 0x000000000013E418 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E01639A0 0x000000000012E3C8 0x00000000001363C8 0x00000000001363C8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E01638D8 0x0000000000126378 0x000000000012E378 0x000000000012E378 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0163810 0x000000000011E328 0x0000000000126328 0x0000000000126328 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0163748 0x00000000001162D8 0x000000000011E2D8 0x000000000011E2D8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E01474E0 0x00000000000F0388 0x00000000000F8388 0x00000000000F8388 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0147418 0x00000000000E8338 0x00000000000F0338 0x00000000000F0338 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0147350 0x00000000000E02E8 0x00000000000E82E8 0x00000000000E82E8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0147288 0x00000000000D8298 0x00000000000E0298 0x00000000000E0298 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E01471C0 0x00000000000C91B8 0x00000000000D11B8 0x00000000000D11B8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E01470F8 0x00000000000C1168 0x00000000000C9168 0x00000000000C9168 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0147030 0x00000000000B9118 0x00000000000C1118 0x00000000000C1118 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0146F68 0x00000000000B10C8 0x00000000000B90C8 0x00000000000B90C8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0146EA0 0x00000000000A9078 0x00000000000B1078 0x00000000000B1078 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0146DD8 0x00000000000A1028 0x00000000000A9028 0x00000000000A9028 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013EF10 0x0000000000098FD8 0x00000000000A0FD8 0x00000000000A0FD8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013EE48 0x0000000000090F88 0x0000000000098F88 0x0000000000098F88 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013ED80 0x0000000000088F38 0x0000000000090F38 0x0000000000090F38 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013ECB8 0x0000000000080EE8 0x0000000000088EE8 0x0000000000088EE8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013EBF0 0x0000000000078E98 0x0000000000080E98 0x0000000000080E98 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013EB28 0x0000000000070E48 0x0000000000078E48 0x0000000000078E48 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013EA60 0x0000000000068DF8 0x0000000000070DF8 0x0000000000070DF8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013E998 0x0000000000060DA8 0x0000000000068DA8 0x0000000000068DA8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013E8D0 0x0000000000058D58 0x0000000000060D58 0x0000000000060D58 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E013E808 0x0000000000050D08 0x0000000000058D08 0x0000000000058D08 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E01243B0 0x0000000000048CB8 0x0000000000050CB8 0x0000000000050CB8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E01242E8 0x0000000000040C68 0x0000000000048C68 0x0000000000048C68 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0124220 0x0000000000038C18 0x0000000000040C18 0x0000000000040C18 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0124158 0x00007FA0E76E2C70 0x00007FA0E76E3280 0x00007FA0E76E3280 0x04020104 0x0000000000000640
+1STSEGMENT     0x00007FA0E0124090 0x00007FA0E76E2650 0x00007FA0E76E2C30 0x00007FA0E76E2C30 0x04200104 0x0000000000000610
+1STSEGMENT     0x00007FA0E0123FC8 0x0000000000030BC8 0x0000000000038BC8 0x0000000000038BC8 0x00010040 0x0000000000008000
+1STSEGMENT     0x00007FA0E0123F00 0x00007FA0AC454840 0x00007FA0AC472DD0 0x00007FA0AC472DD0 0x00020104 0x000000000001E590
+1STSEGMENT     0x00007FA0E0123E38 0x00007FA0AC438FC8 0x00007FA0AC454840 0x00007FA0AC454840 0x00020104 0x000000000001B878
+1STSEGMENT     0x00007FA0E0123D70 0x00007FA0AC4192C0 0x00007FA0AC438FC8 0x00007FA0AC438FC8 0x00020104 0x000000000001FD08
+1STSEGMENT     0x00007FA0E0123CA8 0x00007FA0AC3FB438 0x00007FA0AC4192C0 0x00007FA0AC4192C0 0x00020104 0x000000000001DE88
+1STSEGMENT     0x00007FA0E00DB100 0x00007FA0AC3DC278 0x00007FA0AC3FB438 0x00007FA0AC3FB438 0x00020104 0x000000000001F1C0
+1STSEGMENT     0x00007FA0E00DB038 0x00007FA0AC3BD918 0x00007FA0AC3DC278 0x00007FA0AC3DC278 0x00020104 0x000000000001E960
+1STSEGMENT     0x00007FA0E00DAF70 0x00007FA0AC39E2C8 0x00007FA0AC3BD918 0x00007FA0AC3BD918 0x00020104 0x000000000001F650
+1STSEGMENT     0x00007FA0E00DAEA8 0x00007FA0AC37E3A0 0x00007FA0AC39E2C8 0x00007FA0AC39E2C8 0x00020104 0x000000000001FF28
+1STSEGMENT     0x00007FA0E00DADE0 0x00007FA0AC35F0A8 0x00007FA0AC37E3A0 0x00007FA0AC37E3A0 0x00020104 0x000000000001F2F8
+1STSEGMENT     0x00007FA0E00DAD18 0x00007FA0AC3417B0 0x00007FA0AC35F0A8 0x00007FA0AC35F0A8 0x00020104 0x000000000001D8F8
+1STSEGMENT     0x00007FA0E00DAC50 0x00007FA0AC321B80 0x00007FA0AC3417B0 0x00007FA0AC3417B0 0x00020104 0x000000000001FC30
+1STSEGMENT     0x00007FA0E00DAB88 0x00007FA0AC301D00 0x00007FA0AC321B80 0x00007FA0AC321B80 0x00020104 0x000000000001FE80
+1STSEGMENT     0x00007FA0E00DAAC0 0x00007FA0AC2E1D50 0x00007FA0AC301D00 0x00007FA0AC301D00 0x00020104 0x000000000001FFB0
+1STSEGMENT     0x00007FA0E00DA9F8 0x00007FA0AC2C1E90 0x00007FA0AC2E1D50 0x00007FA0AC2E1D50 0x00020104 0x000000000001FEC0
+1STSEGMENT     0x00007FA0E00CFD80 0x00007FA0AC2A2C20 0x00007FA0AC2C1E90 0x00007FA0AC2C1E90 0x00020104 0x000000000001F270
+1STSEGMENT     0x00007FA0E00CFCB8 0x00007FA0AC283328 0x00007FA0AC2A2C20 0x00007FA0AC2A2C20 0x00020104 0x000000000001F8F8
+1STSEGMENT     0x00007FA0E00CFBF0 0x00007FA0AC265950 0x00007FA0AC283328 0x00007FA0AC283328 0x00020104 0x000000000001D9D8
+1STSEGMENT     0x00007FA0E00CFB28 0x00007FA0AC246E18 0x00007FA0AC265950 0x00007FA0AC265950 0x00020104 0x000000000001EB38
+1STSEGMENT     0x00007FA0E00CFA60 0x00007FA0AC226E48 0x00007FA0AC246E18 0x00007FA0AC246E18 0x00020104 0x000000000001FFD0
+1STSEGMENT     0x00007FA0E00CF998 0x00007FA0AC208BB0 0x00007FA0AC226E48 0x00007FA0AC226E48 0x00020104 0x000000000001E298
+1STSEGMENT     0x00007FA0E00CF8D0 0x00007FA0AC1E9260 0x00007FA0AC208BB0 0x00007FA0AC208BB0 0x00020104 0x000000000001F950
+1STSEGMENT     0x00007FA0E00CF808 0x00007FA0AC1C9820 0x00007FA0AC1E9260 0x00007FA0AC1E9260 0x00020104 0x000000000001FA40
+1STSEGMENT     0x00007FA0E00CF740 0x00007FA0AC1A9CF0 0x00007FA0AC1C9820 0x00007FA0AC1C9820 0x00020104 0x000000000001FB30
+1STSEGMENT     0x00007FA0E00CF678 0x00007FA0AC18A0B0 0x00007FA0AC1A9CF0 0x00007FA0AC1A9CF0 0x00020104 0x000000000001FC40
+1STSEGMENT     0x00007FA0E0070290 0x00007FA0AC16C460 0x00007FA0AC18A0B0 0x00007FA0AC18A0B0 0x00020104 0x000000000001DC50
+1STSEGMENT     0x00007FA0E00701C8 0x00007FA0AC14C838 0x00007FA0AC16C460 0x00007FA0AC16C460 0x00020104 0x000000000001FC28
+1STSEGMENT     0x00007FA0E0070100 0x00007FA0AC12CA60 0x00007FA0AC14C838 0x00007FA0AC14C838 0x00020104 0x000000000001FDD8
+1STSEGMENT     0x00007FA0E0070038 0x00007FA0AC10DDD0 0x00007FA0AC12CA60 0x00007FA0AC12CA60 0x00020104 0x000000000001EC90
+1STSEGMENT     0x00007FA0E006FF70 0x00007FA0AC0EEAD8 0x00007FA0AC10DDD0 0x00007FA0AC10DDD0 0x00020104 0x000000000001F2F8
+1STSEGMENT     0x00007FA0E006FEA8 0x00007FA0AC0CF310 0x00007FA0AC0EEAD8 0x00007FA0AC0EEAD8 0x00020104 0x000000000001F7C8
+1STSEGMENT     0x00007FA0E006FDE0 0x00007FA0AC0B28C0 0x00007FA0AC0CF310 0x00007FA0AC0CF310 0x00020104 0x000000000001CA50
+1STSEGMENT     0x00007FA0E006FD18 0x00007FA0AC093848 0x00007FA0AC0B28C0 0x00007FA0AC0B28C0 0x00020104 0x000000000001F078
+1STSEGMENT     0x00007FA0E006FC50 0x00007FA0AC077DE8 0x00007FA0AC093848 0x00007FA0AC093848 0x00020104 0x000000000001BA60
+1STSEGMENT     0x00007FA0E006FB88 0x00007FA0AC059000 0x00007FA0AC077DE8 0x00007FA0AC077DE8 0x00020104 0x000000000001EDE8
+NULL
+1STSEGTOTAL    Total memory:                    68191424 (0x00000000041084C0)
+1STSEGINUSE    Total memory in use:              5653472 (0x00000000005643E0)
+1STSEGFREE     Total memory free:               62537952 (0x0000000003BA40E0)
+NULL
+1STSEGTYPE     JIT Code Cache
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x00007FA0E00B2188 0x00007FA0CD940000 0x00007FA0CD9A80B0 0x00007FA0DD940000 0x00000068 0x0000000010000000
+NULL
+1STSEGTOTAL    Total memory:                   268435456 (0x0000000010000000)
+1STSEGINUSE    Total memory in use:               426160 (0x00000000000680B0)
+1STSEGFREE     Total memory free:              268009296 (0x000000000FF97F50)
+1STSEGLIMIT    Allocation limit:               268435456 (0x0000000010000000)
+NULL
+1STSEGTYPE     JIT Data Cache
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x00007FA0E00B6398 0x00007FA0A7390030 0x00007FA0A7590030 0x00007FA0A7590030 0x00000048 0x0000000000200000
+NULL
+1STSEGTOTAL    Total memory:                     2097152 (0x0000000000200000)
+1STSEGINUSE    Total memory in use:              2097152 (0x0000000000200000)
+1STSEGFREE     Total memory free:                      0 (0x0000000000000000)
+1STSEGLIMIT    Allocation limit:               402653184 (0x0000000018000000)
+NULL
+1STGCHTYPE     GC History
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       LOCKS subcomponent dump routine
+NULL           ===============================
+NULL
+1LKPOOLINFO    Monitor pool info:
+2LKPOOLTOTAL     Current total number of monitors: 0
+NULL
+1LKMONPOOLDUMP Monitor Pool Dump (flat & inflated object-monitors):
+NULL
+1LKREGMONDUMP  JVM System Monitor Dump (registered monitors):
+2LKREGMON          Thread global lock (0x00007FA0E0004598): <unowned>
+2LKREGMON          &(PPG_mem_mem32_subAllocHeapMem32.monitor) lock (0x00007FA0E0004648): <unowned>
+2LKREGMON          NLS hash table lock (0x00007FA0E00046F8): <unowned>
+2LKREGMON          cgroup entry list monitor lock (0x00007FA0E00047A8): <unowned>
+2LKREGMON          portLibrary_omrsig_registerHandler_monitor lock (0x00007FA0E0004858): <unowned>
+2LKREGMON          portLibrary_omrsig_asynch_reporter_shutdown_monitor lock (0x00007FA0E0004908): <unowned>
+2LKREGMON          portLibrary_omrsig_async_monitor lock (0x00007FA0E00049B8): <unowned>
+2LKREGMON          &(PHD_vendorMonitor) lock (0x00007FA0E0004A68): <unowned>
+2LKREGMON          &(vm->systemPropertiesMutex) lock (0x00007FA0E0004B18): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FA0E0004BC8): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FA0E0004C78): <unowned>
+2LKREGMON          OMR VM list mutex lock (0x00007FA0E0004D28): <unowned>
+2LKREGMON          OMR VM thread list mutex lock (0x00007FA0E0004DD8): <unowned>
+2LKREGMON          dump tokens mutex lock (0x00007FA0E0004E88): <unowned>
+2LKREGMON          VM hidden fields list lock (0x00007FA0E0004F38): <unowned>
+2LKREGMON          MM_SublistPool lock (0x00007FA0E0004FE8): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FA0E0005098): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FA0E0005148): <unowned>
+2LKREGMON          GCExtensions::gcExclusiveAccessMutex lock (0x00007FA0E00051F8): <unowned>
+2LKREGMON          GCExtensions::_lightweightNonReentrantLockPoolMutex lock (0x00007FA0E00052A8): <unowned>
+2LKREGMON          gcCycleOn lock (0x00007FA0E0005358): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FA0E0005408): <unowned>
+2LKREGMON          MM_ParallelDispatcher::workerThread lock (0x00007FA0E00054B8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "GC Worker" (J9VMThread:0x00000000000FF100)
+3LKWAITNOTIFY            "GC Worker" (J9VMThread:0x0000000000102C00)
+3LKWAITNOTIFY            "GC Worker" (J9VMThread:0x0000000000106800)
+3LKWAITNOTIFY            "GC Worker" (J9VMThread:0x000000000010A400)
+3LKWAITNOTIFY            "GC Worker" (J9VMThread:0x000000000010E000)
+3LKWAITNOTIFY            "GC Worker" (J9VMThread:0x0000000000111C00)
+3LKWAITNOTIFY            "GC Worker" (J9VMThread:0x0000000000115800)
+2LKREGMON          MM_ParallelDispatcher::dispatcherControl lock (0x00007FA0E0005568): <unowned>
+2LKREGMON          MM_ParallelDispatcher::synchronize lock (0x00007FA0E0005618): <unowned>
+2LKREGMON          MM_WorkPackets::inputList lock (0x00007FA0E00056C8): <unowned>
+2LKREGMON          MM_WorkPackets::allocatingPackets lock (0x00007FA0E0005778): <unowned>
+2LKREGMON          MM_WorkPacketOverflow::overflowList lock (0x00007FA0E0005828): <unowned>
+2LKREGMON          MM_ConcurrentOverflow::cardsClearingMonitor lock (0x00007FA0E00058D8): <unowned>
+2LKREGMON          SweepPoolState Monitor lock (0x00007FA0E0005988): <unowned>
+2LKREGMON          MM_ConcurrentGC::conHelpersActivation lock (0x00007FA0E0005A38): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "Concurrent Mark Helper" (J9VMThread:0x00000000000FB500)
+2LKREGMON          MM_ConcurrentGC::initWork lock (0x00007FA0E0005AE8): <unowned>
+2LKREGMON          MM_ConcurrentGC::concurrentTuning lock (0x00007FA0E0005B98): <unowned>
+2LKREGMON          MM_ConcurrentGC::initWorkComplete lock (0x00007FA0E0005C48): <unowned>
+2LKREGMON          Undead Segment List Monitor lock (0x00007FA0E0005CF8): <unowned>
+2LKREGMON          Class Loader List Monitor lock (0x00007FA0E0005DA8): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E0005E58): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E0005F08): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E0005FB8): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E0006068): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E0006118): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E00061C8): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E0006278): <unowned>
+2LKREGMON          GC string table lock (0x00007FA0E0006328): <unowned>
+2LKREGMON          MM_GCExtensions::gcStats lock (0x00007FA0E00063D8): <unowned>
+2LKREGMON          Unsafe memory allocation tracking lock (0x00007FA0E0006488): <unowned>
+2LKREGMON          JIT-SmallBlockListsMonitor lock (0x00007FA0E0006538): <unowned>
+2LKREGMON          &vm->verboseStateMutex lock (0x00007FA0E00065E8): <unowned>
+2LKREGMON          VM thread list lock (0x00007FA0E0006698): <unowned>
+2LKREGMON          VM exclusive access lock (0x00007FA0E0006748): <unowned>
+2LKREGMON          VM Runtime flags Mutex lock (0x00007FA0E00067F8): <unowned>
+2LKREGMON          VM Extended method block flags Mutex lock (0x00007FA0E00068A8): <unowned>
+2LKREGMON          Async event mutex lock (0x00007FA0E0006958): <unowned>
+2LKREGMON          JIT/GC class unload mutex lock (0x00007FA0E0006A08): <unowned>
+2LKREGMON          VM bind native lock (0x00007FA0E0006AB8): <unowned>
+2LKREGMON          JCL cache mutex lock (0x00007FA0E0006B68): <unowned>
+2LKREGMON          VM Statistics List Mutex lock (0x00007FA0E0006C18): <unowned>
+2LKREGMON          Field Index Hashtable Mutex lock (0x00007FA0E0006CC8): <unowned>
+2LKREGMON          JNI critical region mutex lock (0x00007FA0E0006D78): <unowned>
+2LKREGMON          VM class loader modules lock (0x00007FA0E0006E28): <unowned>
+2LKREGMON          VM class loader blocks lock (0x00007FA0E0006ED8): <unowned>
+2LKREGMON          VM class table lock (0x00007FA0E0006F88): Flat locked by "main" (J9VMThread:0x000000000000AA00), entry count 1
+3LKWAITERQ            Waiting to enter:
+3LKWAITER                "JIT Compilation Thread-000" (J9VMThread:0x000000000000E600)
+3LKWAITER                "Attach API initializer" (J9VMThread:0x000000000016D300)
+2LKREGMON          VM segment lock (0x00007FA0E0007038): <unowned>
+2LKREGMON          VM JNI frame lock (0x00007FA0E00070E8): <unowned>
+2LKREGMON          VM GC finalize main lock (0x00007FA0E0069798): <unowned>
+2LKREGMON          VM GC finalize run finalization lock (0x00007FA0E0069848): <unowned>
+2LKREGMON          VM AOT runtime init lock (0x00007FA0E00698F8): <unowned>
+2LKREGMON          OSR global buffer lock lock (0x00007FA0E00699A8): <unowned>
+2LKREGMON          JNI native library loading lock lock (0x00007FA0E0069A58): <unowned>
+2LKREGMON          VM state notification mutex lock (0x00007FA0E0069B08): <unowned>
+2LKREGMON          Wait mutex for constantDynamic during resolve lock (0x00007FA0E0069BB8): <unowned>
+2LKREGMON          VM monitor table lock (0x00007FA0E0069C68): Flat locked by "main" (J9VMThread:0x000000000000AA00), entry count 1
+2LKREGMON          VM mem segment list lock (0x00007FA0E0069D18): <unowned>
+2LKREGMON          VM mem segment list lock (0x00007FA0E0069DC8): Flat locked by "main" (J9VMThread:0x000000000000AA00), entry count 1
+2LKREGMON          MM_Scavenger::scanCacheMonitor lock (0x00007FA0E0069E78): <unowned>
+2LKREGMON          MM_Scavenger::freeCacheMonitor lock (0x00007FA0E0069F28): <unowned>
+2LKREGMON          FinalizeListManager lock (0x00007FA0E0069FD8): <unowned>
+2LKREGMON          &(jvmtiData->mutex) lock (0x00007FA0E006A088): <unowned>
+2LKREGMON          &(jvmtiData->redefineMutex) lock (0x00007FA0E006A138): <unowned>
+2LKREGMON          &(jvmtiData->compileEventMutex) lock (0x00007FA0E006A1E8): <unowned>
+2LKREGMON          BCVD verifier lock (0x00007FA0E006A298): <unowned>
+2LKREGMON          global mapMemoryBuffer mutex lock (0x00007FA0E006A348): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E006A3F8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E006A4A8): <unowned>
+2LKREGMON          jvmriDumpThread lock (0x00007FA0E006A558): <unowned>
+2LKREGMON          J9VM Trace Lock lock (0x00007FA0E006A608): <unowned>
+2LKREGMON          Global Trace lock (0x00007FA0E006A6B8): <unowned>
+2LKREGMON          Global Record Subscribers lock (0x00007FA0E006A768): <unowned>
+2LKREGMON          Global Trace Thread lock (0x00007FA0E006A818): <unowned>
+2LKREGMON          Trace Trigger on tpid lock (0x00007FA0E006A8C8): <unowned>
+2LKREGMON          Trace Trigger on groups lock (0x00007FA0E006A978): <unowned>
+2LKREGMON          Global Trace Free Queue lock (0x00007FA0E006AA28): <unowned>
+2LKREGMON          Trace Queue Alarm lock (0x00007FA0E006AAD8): <unowned>
+2LKREGMON          Trace Queue lock (0x00007FA0E006AB88): <unowned>
+2LKREGMON          jvmriDumpThread lock (0x00007FA0E006AC38): <unowned>
+2LKREGMON          JIT-MonitorTableMonitor lock (0x00007FA0E006ACE8): <unowned>
+2LKREGMON          JIT-MemoryAllocMonitor lock (0x00007FA0E006AD98): <unowned>
+2LKREGMON          JIT-ScratchMemoryPoolMonitor lock (0x00007FA0E006AE48): <unowned>
+2LKREGMON          JIT-IProfilerPersistenceMonitor lock (0x00007FA0E006AEF8): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FA0E006AFA8): <unowned>
+2LKREGMON          JIT thunk table lock (0x00007FA0E006B058): <unowned>
+2LKREGMON          JIT-AssumptionTableMutex lock (0x00007FA0E006B108): <unowned>
+2LKREGMON          VM mem segment list lock (0x00007FA0E006B1B8): <unowned>
+2LKREGMON          VM mem segment list lock (0x00007FA0E006B268): <unowned>
+2LKREGMON          JIT-CompilationQueueMonitor lock (0x00007FA0E006B318): <unowned>
+2LKREGMON          JIT-SchedulingMonitor lock (0x00007FA0E006B3C8): <unowned>
+2LKREGMON          JIT-DLTmonitor lock (0x00007FA0E006B478): <unowned>
+2LKREGMON          JIT-IProfilerBufferArrivalMonitor lock (0x00007FA0E006B528): <unowned>
+2LKREGMON          JIT-GpuInitializationMonitor lock (0x00007FA0E006B5D8): <unowned>
+2LKREGMON          JIT-SequencingMonitor lock (0x00007FA0E006B688): <unowned>
+2LKREGMON          JIT-ClassesCachedAtServerMonitor lock (0x00007FA0E006B738): <unowned>
+2LKREGMON          JIT-ArtifactMonitor lock (0x00007FA0E006B7E8): <unowned>
+2LKREGMON          CodeCacheRepositoryMonitor lock (0x00007FA0E006B898): <unowned>
+2LKREGMON          JIT-CodeCacheListMutex lock (0x00007FA0E006B948): <unowned>
+2LKREGMON          CodeCacheUsageMonitor lock (0x00007FA0E006B9F8): <unowned>
+2LKREGMON          JIT-CodeCacheMonitor-?? lock (0x00007FA0E006BAA8): <unowned>
+2LKREGMON          JIT-DataCacheManagerMutex lock (0x00007FA0E006BB58): <unowned>
+2LKREGMON          OptimizationPlanMonitor lock (0x00007FA0E006BC08): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0E006BCB8): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E006BD68): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E006BE18): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0E006BEC8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-001 Suspended" (J9VMThread:0x0000000000012200)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E006BF78): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E006C028): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0E006C0D8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-002 Suspended" (J9VMThread:0x0000000000015E00)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E006C188): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E006C238): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0E006C2E8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-003 Suspended" (J9VMThread:0x0000000000019900)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0B8000B78): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0B8000C28): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0B8000CD8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-004 Suspended" (J9VMThread:0x000000000001D500)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0B8000D88): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0B8000E38): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0B8000EE8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-005 Suspended" (J9VMThread:0x0000000000021100)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0B8000F98): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0B8001048): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0B80010F8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-006 Suspended" (J9VMThread:0x0000000000024D00)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0B80011A8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0B8001258): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FA0B8001308): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Diagnostic Compilation Thread-007 Suspended" (J9VMThread:0x0000000000028900)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0B80013B8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0B8001468): <unowned>
+2LKREGMON          JIT-LogMonitor lock (0x00007FA0B8001518): <unowned>
+2LKREGMON          JIT-InterpreterProfilingMonitor lock (0x00007FA0B80015C8): <unowned>
+2LKREGMON          ValueProfilingMutex lock (0x00007FA0B8001678): <unowned>
+2LKREGMON          InvokeExactJ2IThunkTable lock (0x00007FA0B8001728): <unowned>
+2LKREGMON          &(tempConfig->configMonitor) lock (0x00007FA0B80017D8): <unowned>
+2LKREGMON          &(tempConfig->jclCacheMutex) lock (0x00007FA0B8001888): <unowned>
+2LKREGMON          &_refreshMutex lock (0x00007FA0B8001938): <unowned>
+2LKREGMON          &_headerProtectMutex lock (0x00007FA0B80019E8): <unowned>
+2LKREGMON          &_runtimeFlagsProtectMutex lock (0x00007FA0B8001A98): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FA0B8001B48): Flat locked by "main" (J9VMThread:0x000000000000AA00), entry count 1
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FA0B8001BF8): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FA0B8001CA8): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FA0B8001D58): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FA0B8001E08): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FA0B8001EB8): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FA0B8001F68): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FA0B8002018): <unowned>
+2LKREGMON          &_identifiedMutex lock (0x00007FA0B80020C8): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FA0B8002178): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FA0B8002228): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FA0B80022D8): <unowned>
+2LKREGMON          XshareclassesVerifyInternTableMon lock (0x00007FA0B8002388): <unowned>
+2LKREGMON          &(j9env->mutex) lock (0x00007FA0B8002438): <unowned>
+2LKREGMON          &(j9env->threadDataPoolMutex) lock (0x00007FA0B80024E8): <unowned>
+2LKREGMON          JIT sampling thread lock (0x00007FA0B8002598): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0B8002648): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0B80026F8): <unowned>
+2LKREGMON          JIT-iprofilerMonitor lock (0x00007FA0B80027A8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "IProfiler" (J9VMThread:0x0000000000030100)
+2LKREGMON          Thread public flags mutex lock (0x00007FA0B8002858): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0B8002908): <unowned>
+2LKREGMON          flushProcessWriteBuffers lock (0x00007FA0B80029B8): <unowned>
+2LKREGMON          management fields lock lock (0x00007FA0B8002A68): <unowned>
+2LKREGMON          &mgmt->notificationMonitor lock (0x00007FA0B8002B18): <unowned>
+2LKREGMON          &mgmt->dlparNotificationMonitor lock (0x00007FA0B8002BC8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-0 lock (0x00007FA0B8002C78): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-1 lock (0x00007FA0B8002D28): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-2 lock (0x00007FA0B8002DD8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-3 lock (0x00007FA0B8002E88): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-4 lock (0x00007FA0B8002F38): <unowned>
+2LKREGMON          countersMutex lock (0x00007FA0B8002FE8): <unowned>
+2LKREGMON          countersMutex lock (0x00007FA0B8003098): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-5 lock (0x00007FA0B8003148): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-6 lock (0x00007FA0B80031F8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-7 lock (0x00007FA0B80032A8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-8 lock (0x00007FA0B8003358): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-9 lock (0x00007FA0B8003408): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-10 lock (0x00007FA0B80034B8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-11 lock (0x00007FA0B8003568): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-12 lock (0x00007FA0B8003618): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-13 lock (0x00007FA0B80036C8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-14 lock (0x00007FA0E014D378): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-15 lock (0x00007FA0E014D428): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-16 lock (0x00007FA0E014D4D8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-17 lock (0x00007FA0E014D588): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-18 lock (0x00007FA0E014D638): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-19 lock (0x00007FA0E014D6E8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-20 lock (0x00007FA0E014D798): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-21 lock (0x00007FA0E014D848): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-22 lock (0x00007FA0E014D8F8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-23 lock (0x00007FA0E014D9A8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-24 lock (0x00007FA0E014DA58): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-25 lock (0x00007FA0E014DB08): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-26 lock (0x00007FA0E014DBB8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-27 lock (0x00007FA0E014DC68): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-28 lock (0x00007FA0E014DD18): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-29 lock (0x00007FA0E014DDC8): <unowned>
+2LKREGMON          JIT-QueueSlotMonitor-30 lock (0x00007FA0E014DE78): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014DF28): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014DFD8): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014E088): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014E138): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014E1E8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014E298): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014E348): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014E3F8): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014E4A8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014E558): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014E608): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014E6B8): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014E768): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014E818): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014E8C8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014E978): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014EA28): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014EAD8): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014EB88): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014EC38): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014ECE8): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014ED98): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014EE48): <unowned>
+2LKREGMON          JVM_RawMonitor lock (0x00007FA0E014EEF8): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014EFA8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014F058): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FA0E014F108): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FA0E014F1B8): <unowned>
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       THREADS subcomponent dump routine
+NULL           =================================
+NULL
+1XMPOOLINFO    JVM Thread pool info:
+2XMPOOLTOTAL       Current total number of pooled threads: 21
+2XMPOOLLIVE        Current total number of live threads: 21
+2XMPOOLDAEMON      Current total number of live daemon threads: 20
+NULL
+1XMCURTHDINFO  Current thread
+3XMTHREADINFO      "main" J9VMThread:0x000000000000AA00, omrthread_t:0x00007FA0E0007280, java/lang/Thread:0x00000000FFF044B0, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0x1, isDaemon:false)
+3XMTHREADINFO1            (native thread ID:0x1915, native priority:0x5, native policy:UNKNOWN, vmstate:R, vm thread flags:0x00000020)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0E7B41000, to:0x00007FA0E8341000, size:0x800000)
+3XMCPUTIME               CPU usage total: 0.718750000 secs, current category="Application"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=669616 (0xA37B0)
+3XMTHREADINFO3           Java callstack:
+4XESTACKTRACE                at java/lang/VMAccess.findClassOrNull(Native Method)
+4XESTACKTRACE                at java/lang/VMAccess.findClassOrNullHelper(VMAccess.java:55(Compiled Code))
+4XESTACKTRACE                at com/ibm/oti/vm/BootstrapClassLoader.loadClass(BootstrapClassLoader.java:81(Compiled Code))
+4XESTACKTRACE                at java/lang/VMAccess.findClassOrNull(Native Method)
+4XESTACKTRACE                at java/lang/VMAccess.findClassOrNullHelper(VMAccess.java:55(Compiled Code))
+4XESTACKTRACE                at com/ibm/oti/vm/BootstrapClassLoader.loadClass(BootstrapClassLoader.java:81(Compiled Code))
+4XESTACKTRACE                at java/io/ObjectStreamClass$3.run(ObjectStreamClass.java:523)
+4XESTACKTRACE                at java/io/ObjectStreamClass$3.run(ObjectStreamClass.java:494)
+4XESTACKTRACE                at java/security/AccessController.doPrivileged(AccessController.java:682(Compiled Code))
+4XESTACKTRACE                at java/io/ObjectStreamClass.<init>(ObjectStreamClass.java:494)
+4XESTACKTRACE                at java/io/ObjectStreamClass.lookup(ObjectStreamClass.java:391)
+4XESTACKTRACE                at java/io/ObjectOutputStream.writeObject0(ObjectOutputStream.java:1134)
+4XESTACKTRACE                at java/io/ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+4XESTACKTRACE                at serial/contoh1.main(contoh1.java:32)
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+NULL
+1XMTHDINFO     Thread Details
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-006 Suspended" J9VMThread:0x0000000000024D00, omrthread_t:0x00007FA0E00C6AC0, java/lang/Thread:0x00000000FFF44B00, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x8, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x191D, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CC1D1000, to:0x00007FA0CC2D1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-005 Suspended" J9VMThread:0x0000000000021100, omrthread_t:0x00007FA0E00C5B48, java/lang/Thread:0x00000000FFF44878, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x7, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x191C, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CC2E1000, to:0x00007FA0CC3E1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-004 Suspended" J9VMThread:0x000000000001D500, omrthread_t:0x00007FA0E00C55D0, java/lang/Thread:0x00000000FFF44620, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x6, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x191B, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CC3F1000, to:0x00007FA0CC4F1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "GC Worker" J9VMThread:0x000000000010A400, omrthread_t:0x00007FA0E01604F8, java/lang/Thread:0x00000000FFF59160, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0x10, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1926, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A71B1000, to:0x00007FA0A71F1000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "GC Worker" J9VMThread:0x0000000000106800, omrthread_t:0x00007FA0E015FF80, java/lang/Thread:0x00000000FFF58160, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0xF, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1925, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A7201000, to:0x00007FA0A7241000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "GC Worker" J9VMThread:0x0000000000102C00, omrthread_t:0x00007FA0E015F4E8, java/lang/Thread:0x00000000FFF57160, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0xE, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1924, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A7251000, to:0x00007FA0A7291000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "GC Worker" J9VMThread:0x00000000000FF100, omrthread_t:0x00007FA0E015EF70, java/lang/Thread:0x00000000FFF56160, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0xD, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1923, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A72A1000, to:0x00007FA0A72E1000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "Concurrent Mark Helper" J9VMThread:0x00000000000FB500, omrthread_t:0x00007FA0E015E4D8, java/lang/Thread:0x00000000FFF55178, state:R, prio=1
+3XMJAVALTHREAD            (java/lang/Thread getId:0xC, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1922, native priority:0x0, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A72F1000, to:0x00007FA0A7331000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "IProfiler" J9VMThread:0x0000000000030100, omrthread_t:0x00007FA0E0131718, java/lang/Thread:0x00000000FFF45338, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0xB, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1920, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A7C11000, to:0x00007FA0A7C31000, size:0x20000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT-SamplerThread" J9VMThread:0x000000000002C500, omrthread_t:0x00007FA0E01311A0, java/lang/Thread:0x00000000FFF44FA8, state:CW, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0xA, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x191F, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A7C41000, to:0x00007FA0A7C81000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Diagnostic Compilation Thread-007 Suspended" J9VMThread:0x0000000000028900, omrthread_t:0x00007FA0E00C7038, java/lang/Thread:0x00000000FFF44D70, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x9, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x191E, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CC0C1000, to:0x00007FA0CC1C1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-003 Suspended" J9VMThread:0x0000000000019900, omrthread_t:0x00007FA0E00C4658, java/lang/Thread:0x00000000FFF443C8, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x5, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x191A, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CC501000, to:0x00007FA0CC601000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-002 Suspended" J9VMThread:0x0000000000015E00, omrthread_t:0x00007FA0E00C40E0, java/lang/Thread:0x00000000FFF44170, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x4, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1919, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CC611000, to:0x00007FA0CC711000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "GC Worker" J9VMThread:0x0000000000111C00, omrthread_t:0x00007FA0E0161508, java/lang/Thread:0x00000000FFF5B160, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0x12, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1928, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A7111000, to:0x00007FA0A7151000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "GC Worker" J9VMThread:0x000000000010E000, omrthread_t:0x00007FA0E0160F90, java/lang/Thread:0x00000000FFF5A160, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0x11, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1927, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A7161000, to:0x00007FA0A71A1000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-001 Suspended" J9VMThread:0x0000000000012200, omrthread_t:0x00007FA0E00C3168, java/lang/Thread:0x00000000FFF43EE0, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x3, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1918, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CC721000, to:0x00007FA0CC821000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "Monitor Ctrl-Break" J9VMThread:0x0000000000159600, omrthread_t:0x00007FA0E0162518, java/lang/Thread:0x00000000FFF78F08, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0x14, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x192A, native priority:0x5, native policy:UNKNOWN, vmstate:R, vm thread flags:0x00000020)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A6871000, to:0x00007FA0A68B1000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.031250000 secs, current category="Application"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=75120 (0x12570)
+3XMTHREADINFO3           Java callstack:
+4XESTACKTRACE                at java/net/SocketInputStream.socketRead0(Native Method)
+4XESTACKTRACE                at java/net/SocketInputStream.socketRead(SocketInputStream.java:116)
+4XESTACKTRACE                at java/net/SocketInputStream.read(SocketInputStream.java:171)
+4XESTACKTRACE                at java/net/SocketInputStream.read(SocketInputStream.java:141)
+4XESTACKTRACE                at sun/nio/cs/StreamDecoder.readBytes(StreamDecoder.java:284)
+4XESTACKTRACE                at sun/nio/cs/StreamDecoder.implRead(StreamDecoder.java:326)
+4XESTACKTRACE                at sun/nio/cs/StreamDecoder.read(StreamDecoder.java:178)
+5XESTACKTRACE                   (entered lock: java/io/InputStreamReader@0x00000000FFF8E448, entry count: 2)
+4XESTACKTRACE                at java/io/InputStreamReader.read(InputStreamReader.java:184)
+4XESTACKTRACE                at java/io/BufferedReader.fill(BufferedReader.java:161)
+4XESTACKTRACE                at java/io/BufferedReader.readLine(BufferedReader.java:324(Compiled Code))
+5XESTACKTRACE                   (entered lock: java/io/InputStreamReader@0x00000000FFF8E448, entry count: 1)
+4XESTACKTRACE                at java/io/BufferedReader.readLine(BufferedReader.java:389)
+4XESTACKTRACE                at com/intellij/rt/execution/application/AppMainV2$1.run(AppMainV2.java:48)
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "GC Worker" J9VMThread:0x0000000000115800, omrthread_t:0x00007FA0E0161FA0, java/lang/Thread:0x00000000FFF5C160, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0x13, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1929, native priority:0x5, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A70C1000, to:0x00007FA0A7101000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="GC"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=4096 (0x1000)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-000" J9VMThread:0x000000000000E600, omrthread_t:0x00007FA0E00C2BF0, java/lang/Thread:0x00000000FFF43C88, state:R, prio=10
+3XMJAVALTHREAD            (java/lang/Thread getId:0x2, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x1917, native priority:0xB, native policy:UNKNOWN, vmstate:B, vm thread flags:0x00000020)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0CD831000, to:0x00007FA0CD931000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.109375000 secs, current category="JIT"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=0 (0x0)
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "Attach API initializer" J9VMThread:0x000000000016D300, omrthread_t:0x00007FA0E02047B0, java/lang/Thread:0x00000000FFF79298, state:R, prio=5
+3XMJAVALTHREAD            (java/lang/Thread getId:0x15, isDaemon:true)
+3XMTHREADINFO1            (native thread ID:0x192B, native priority:0x5, native policy:UNKNOWN, vmstate:B, vm thread flags:0x00000020)
+3XMTHREADINFO2            (native stack address range from:0x00007FA0A6821000, to:0x00007FA0A6861000, size:0x40000)
+3XMCPUTIME               CPU usage total: 0.046875000 secs, current category="System-JVM"
+3XMHEAPALLOC             Heap bytes allocated since last GC cycle=95240 (0x17408)
+3XMTHREADINFO3           Java callstack:
+4XESTACKTRACE                at openj9/internal/tools/attach/target/AttachHandler.terminate(AttachHandler.java:359)
+5XESTACKTRACE                   (entered lock: openj9/internal/tools/attach/target/AttachHandler$AttachStateSync@0x00000000FFF796B8, entry count: 1)
+4XESTACKTRACE                at openj9/internal/tools/attach/target/AttachHandler.initialize(AttachHandler.java:303)
+4XESTACKTRACE                at openj9/internal/tools/attach/target/AttachHandler.run(AttachHandler.java:231)
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+1XMWLKTHDERR   The following was reported while collecting native stacks:
+2XMWLKTHDERR             failed to suspend process(4, -38)
+NULL
+1XECTHTYPE     Current thread history (J9VMThread:0x000000000000AA00)
+3XEHSTTYPE     04:06:14:432468000 GMT j9shr.1012 - * ** ASSERTION FAILED ** at CompositeCache.cpp:1972: ((this->_commonCCInfo->oldWriterCount == _theca->writerCount))
+3XEHSTTYPE     04:06:14:432388000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:432386000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:432142000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:431157000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:431156000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:431152000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:429708000 GMT j9bcverify(j9vm).37 -   allocating classLoadingConstraints table
+3XEHSTTYPE     04:06:14:429568000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:429514000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:429514000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:429509000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:423076000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:422769000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:422768000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:422765000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:421662000 GMT j9vm.270 -  <resolveKnownClass -- result = 00000000001A0100
+3XEHSTTYPE     04:06:14:421657000 GMT j9vm.269 -  >resolveKnownClass(index=54)
+3XEHSTTYPE     04:06:14:421375000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:421246000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:421246000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:421243000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:420838000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:420836000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419788000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419696000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419696000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419692000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419376000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419313000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419312000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419309000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:419013000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:418933000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:418932000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:418928000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:417653000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:417589000 GMT j9shr.1556 - * CC enterReadWriteAreaMutex: Detected termination - must rebuild cached string table (_theca->readWriteCrashCntr=1, _theca->readWriteRebuildCntr=2)
+3XEHSTTYPE     04:06:14:417572000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:417571000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:417568000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:417016000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:416245000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:416244000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:416240000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:414336000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413945000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413944000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413941000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413581000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413488000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413487000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413484000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:413075000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:412943000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:412941000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:412937000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:412217000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:412034000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:412033000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:412029000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:410498000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:410399000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:410397000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:410393000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:409434000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:409433000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:408925000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:407920000 GMT j9shr.1557 - * CC enterReadWriteAreaMutex: Detected termination - must rebuild local string table (_localReadWriteCrashCntr=2, _theca->readWriteCrashCntr=1)
+3XEHSTTYPE     04:06:14:407901000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:407897000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:407881000 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:06:14:403676000 GMT j9shr.1556 - * CC enterReadWriteAreaMutex: Detected termination - must rebuild cached string table (_theca->readWriteCrashCntr=2, _theca->readWriteRebuildCntr=1)
+3XEHSTTYPE     04:06:14:398574000 GMT j9shr.1556 - * CC enterReadWriteAreaMutex: Detected termination - must rebuild cached string table (_theca->readWriteCrashCntr=2, _theca->readWriteRebuildCntr=1)
+3XEHSTTYPE     04:06:14:391859000 GMT sunvmi.98 -  <JVM_GetSystemPackage -- return 0000000000000000
+3XEHSTTYPE     04:06:14:391857000 GMT sunvmi.95 -   Searching for package serial/ (len=7)
+3XEHSTTYPE     04:06:14:391856000 GMT sunvmi.94 -  >JVM_GetSystemPackage(name=00000000000D7C90)
+3XEHSTTYPE     04:06:14:391849000 GMT sunvmi.98 -  <JVM_GetSystemPackage -- return 0000000000000000
+3XEHSTTYPE     04:06:14:391846000 GMT sunvmi.95 -   Searching for package serial/ (len=7)
+3XEHSTTYPE     04:06:14:391842000 GMT sunvmi.94 -  >JVM_GetSystemPackage(name=00000000000D7CD0)
+3XEHSTTYPE     04:06:14:389452000 GMT j9vm.66 -  <Free stacks
+3XEHSTTYPE     04:06:14:389439000 GMT j9vm.65 -   Freeing stack 0000000000007928 (size 2048)
+3XEHSTTYPE     04:06:14:389438000 GMT j9vm.64 -  >Free stacks
+3XEHSTTYPE     04:06:14:385723000 GMT j9jvmti.313 -  <HookVMInitialized
+3XEHSTTYPE     04:06:14:378185000 GMT j9shr.1557 - * CC enterReadWriteAreaMutex: Detected termination - must rebuild local string table (_localReadWriteCrashCntr=3, _theca->readWriteCrashCntr=2)
+3XEHSTTYPE     04:06:14:377672000 GMT j9vm.47 -   hook registration (register/unregister=1 event=69 function=00007FA0E7462260 userData=00007FA0E01545A0)
+3XEHSTTYPE     04:06:14:371937000 GMT j9vm.232 -  <classLoaderRegisterLibrary -- /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/nio returning 0
+3XEHSTTYPE     04:06:14:371932000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result 65538
+3XEHSTTYPE     04:06:14:371931000 GMT j9scar.90 -  <JVM_GetInterfaceVersion -- return 4
+3XEHSTTYPE     04:06:14:371929000 GMT j9scar.89 -  >JVM_GetInterfaceVersion()
+3XEHSTTYPE     04:06:14:371920000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -535289360, fnName JNI_OnLoad, defaultResult 65537)
+3XEHSTTYPE     04:06:14:369622000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/libnio.so
+3XEHSTTYPE     04:06:14:369619000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result -1
+3XEHSTTYPE     04:06:14:369613000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -390860400, fnName JNI_OnLoad_nio, defaultResult -1)
+3XEHSTTYPE     04:06:14:369608000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/bin/java
+3XEHSTTYPE     04:06:14:369603000 GMT j9vm.229 -  >classLoaderRegisterLibrary(loader=00007FA0E009AA18, name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/nio, decorate=5)
+3XEHSTTYPE     04:06:14:369600000 GMT j9vm.232 -  <classLoaderRegisterLibrary -- /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/nio returning 2
+3XEHSTTYPE     04:06:14:369591000 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:06:14:369135000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/nio
+3XEHSTTYPE     04:06:14:369133000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result -1
+3XEHSTTYPE     04:06:14:369128000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -390860400, fnName JNI_OnLoad_nio, defaultResult -1)
+3XEHSTTYPE     04:06:14:369124000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/bin/java
+3XEHSTTYPE     04:06:14:369119000 GMT j9vm.229 -  >classLoaderRegisterLibrary(loader=00007FA0E009AA18, name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/nio, decorate=4)
+3XEHSTTYPE     04:06:14:369117000 GMT j9vm.232 -  <classLoaderRegisterLibrary -- /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/nio returning 2
+3XEHSTTYPE     04:06:14:369108000 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:06:14:368448000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/libnio.so
+3XEHSTTYPE     04:06:14:368445000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result -1
+3XEHSTTYPE     04:06:14:368437000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -390860400, fnName JNI_OnLoad_nio, defaultResult -1)
+3XEHSTTYPE     04:06:14:368427000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/bin/java
+3XEHSTTYPE     04:06:14:368420000 GMT j9vm.229 -  >classLoaderRegisterLibrary(loader=00007FA0E009AA18, name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/nio, decorate=5)
+3XEHSTTYPE     04:06:14:368411000 GMT j9vm.127 -   Attempting to open nio from classpath /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64
+3XEHSTTYPE     04:06:14:365161000 GMT sunvmi.98 -  <JVM_GetSystemPackage -- return 0000000000000000
+3XEHSTTYPE     04:06:14:365158000 GMT sunvmi.95 -   Searching for package com/intellij/rt/execution/application/ (len=38)
+3XEHSTTYPE     04:06:14:365155000 GMT sunvmi.94 -  >JVM_GetSystemPackage(name=00000000000D7BB8)
+3XEHSTTYPE     04:06:14:364940000 GMT sunvmi.98 -  <JVM_GetSystemPackage -- return 0000000000000000
+3XEHSTTYPE     04:06:14:364936000 GMT sunvmi.95 -   Searching for package com/intellij/rt/execution/application/ (len=38)
+3XEHSTTYPE     04:06:14:364931000 GMT sunvmi.94 -  >JVM_GetSystemPackage(name=00000000000D7C78)
+3XEHSTTYPE     04:06:14:361782000 GMT j9scar.140 -  <JVM_Open: File: /mnt/c/Program Files/JetBrains/IntelliJ IDEA 2021.1/lib/idea_rt.jar opened successfully with handle 15
+3XEHSTTYPE     04:06:14:361466000 GMT j9scar.136 -  >JVM_Open(name=/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2021.1/lib/idea_rt.jar, mode=0, flags=0)
+3XEHSTTYPE     04:06:14:352296000 GMT j9scar.140 -  <JVM_Open: File: /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/rt.jar opened successfully with handle 14
+3XEHSTTYPE     04:06:14:352105000 GMT j9scar.136 -  >JVM_Open(name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/rt.jar, mode=0, flags=0)
+3XEHSTTYPE     04:06:14:351136000 GMT j9scar.140 -  <JVM_Open: File: /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/resources.jar opened successfully with handle 13
+3XEHSTTYPE     04:06:14:350922000 GMT j9scar.136 -  >JVM_Open(name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/resources.jar, mode=0, flags=0)
+3XEHSTTYPE     04:06:14:348239000 GMT j9scar.140 -  <JVM_Open: File: /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/management-agent.jar opened successfully with handle 12
+3XEHSTTYPE     04:06:14:348022000 GMT j9scar.136 -  >JVM_Open(name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/management-agent.jar, mode=0, flags=0)
+3XEHSTTYPE     04:06:14:347288000 GMT j9scar.140 -  <JVM_Open: File: /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jsse.jar opened successfully with handle 11
+3XEHSTTYPE     04:06:14:347065000 GMT j9scar.136 -  >JVM_Open(name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jsse.jar, mode=0, flags=0)
+3XEHSTTYPE     04:06:14:346535000 GMT j9scar.140 -  <JVM_Open: File: /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jce.jar opened successfully with handle 10
+3XEHSTTYPE     04:06:14:346315000 GMT j9scar.136 -  >JVM_Open(name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/jce.jar, mode=0, flags=0)
+3XEHSTTYPE     04:06:14:339676000 GMT j9scar.140 -  <JVM_Open: File: /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/charsets.jar opened successfully with handle 9
+3XEHSTTYPE     04:06:14:339456000 GMT j9scar.136 -  >JVM_Open(name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/charsets.jar, mode=0, flags=0)
+3XEHSTTYPE     04:06:14:333999000 GMT j9vm.47 -   hook registration (register/unregister=0 event=2 function=00007FA0E4549220 userData=00007FA0E009CD98)
+3XEHSTTYPE     04:06:14:333670000 GMT j9vm.232 -  <classLoaderRegisterLibrary -- /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/instrument returning 0
+3XEHSTTYPE     04:06:14:333668000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result 65537
+3XEHSTTYPE     04:06:14:333664000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -535645536, fnName JNI_OnLoad, defaultResult 65537)
+3XEHSTTYPE     04:06:14:333657000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/libinstrument.so
+3XEHSTTYPE     04:06:14:333653000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result -1
+3XEHSTTYPE     04:06:14:333647000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -390860400, fnName JNI_OnLoad_instrument, defaultResult -1)
+3XEHSTTYPE     04:06:14:333643000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/bin/java
+3XEHSTTYPE     04:06:14:333637000 GMT j9vm.229 -  >classLoaderRegisterLibrary(loader=00007FA0E009AA18, name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/instrument, decorate=5)
+3XEHSTTYPE     04:06:14:333634000 GMT j9vm.232 -  <classLoaderRegisterLibrary -- /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/instrument returning 2
+3XEHSTTYPE     04:06:14:333624000 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:06:14:333121000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/instrument
+3XEHSTTYPE     04:06:14:333119000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result -1
+3XEHSTTYPE     04:06:14:333111000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -390860400, fnName JNI_OnLoad_instrument, defaultResult -1)
+3XEHSTTYPE     04:06:14:333100000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/bin/java
+3XEHSTTYPE     04:06:14:333071000 GMT j9vm.229 -  >classLoaderRegisterLibrary(loader=00007FA0E009AA18, name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/instrument, decorate=4)
+3XEHSTTYPE     04:06:14:333069000 GMT j9vm.232 -  <classLoaderRegisterLibrary -- /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/instrument returning 2
+3XEHSTTYPE     04:06:14:333058000 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:06:14:332177000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/libinstrument.so
+3XEHSTTYPE     04:06:14:332173000 GMT j9vm.401 -  <exit sendLifecycleEventCallback result -1
+3XEHSTTYPE     04:06:14:332165000 GMT j9vm.399 -  >sendLifecycleEventCallback(vmStruct 000000000000AA00, slHandle -390860400, fnName JNI_OnLoad_instrument, defaultResult -1)
+3XEHSTTYPE     04:06:14:332147000 GMT omrport.476 -   omrsl_open_shared_library using mangledName /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/bin/java
+3XEHSTTYPE     04:06:14:332139000 GMT j9vm.229 -  >classLoaderRegisterLibrary(loader=00007FA0E009AA18, name=/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/instrument, decorate=5)
+3XEHSTTYPE     04:06:14:332128000 GMT j9vm.127 -   Attempting to open instrument from classpath /home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs:/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64
+3XEHSTTYPE     04:06:14:330823000 GMT j9jvmti.312 -  >HookVMInitialized
+3XEHSTTYPE     04:06:14:330816000 GMT j9vm.239 -  <J9RegisterAsyncEvent returning 4
+3XEHSTTYPE     04:06:14:330814000 GMT j9vm.238 -  >J9RegisterAsyncEvent eventHandler=00007FA0E4F04E80 userData=00007FA0E004A780
+3XEHSTTYPE     04:06:14:330811000 GMT j9jvmti.401 -  <HookVMInitializedFirst
+3XEHSTTYPE     04:06:14:330810000 GMT j9jvmti.400 -  >HookVMInitializedFirst
+3XEHSTTYPE     04:06:14:330782000 GMT j9jvmti.405 -  <HookVMStartedFirst
+3XEHSTTYPE     04:06:14:330781000 GMT j9jvmti.316 -  >HookVMStarted
+3XEHSTTYPE     04:06:14:330735000 GMT j9mm.536 -   MM_ParallelDispatcher::adjustThreadCount limiting threads to 4 due to heap size
+3XEHSTTYPE     04:06:14:321383000 GMT j9trc.5 -   Thread started VMthread = 000000000000AA00, name = main, nativeID = 00007FA0E0007280
+NULL
+1XMTHDSUMMARY  Threads CPU Usage Summary
+NULL           =========================
+NULL
+1XMTHDCATINFO  Warning: to get more accurate CPU times for the GC, the option -XX:-ReduceCPUMonitorOverhead can be used. See the user guide for more information.
+NULL
+1XMTHDCATEGORY All JVM attached threads: 0.953125000 secs
+1XMTHDCATEGORY |
+2XMTHDCATEGORY +--System-JVM: 0.718750000 secs
+2XMTHDCATEGORY |  |
+3XMTHDCATEGORY |  +--GC: 0.0 secs
+2XMTHDCATEGORY |  |
+3XMTHDCATEGORY |  +--JIT: 0.109375000 secs
+1XMTHDCATEGORY |
+2XMTHDCATEGORY +--Application: 0.234375000 secs
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       HOOK subcomponent dump routine
+NULL           ==============================
+1NOTE          This data is reset after each javacore file is written
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   MM_OMRHookInterface
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   MM_PrivateHookInterface
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   MM_HookInterface
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   J9VMHookInterface
+NULL           ------------------------------------------------------------------------
+2HKEVENTID     1
+3HKCALLCOUNT     20
+3HKTOTALTIME     982us
+3HKLAST          Last Callback
+4HKCALLSITE        trcengine.c:395
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.389
+4HKDURATION        Duration: 199us
+3HKLONGST        Longest Callback
+4HKCALLSITE        trcengine.c:395
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.389
+4HKDURATION        Duration: 199us
+NULL
+2HKEVENTID     2
+3HKCALLCOUNT     5
+3HKTOTALTIME     54914us
+3HKLAST          Last Callback
+4HKCALLSITE        jvmtiHook.c:386
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.330
+4HKDURATION        Duration: 54904us
+3HKLONGST        Longest Callback
+4HKCALLSITE        jvmtiHook.c:386
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.330
+4HKDURATION        Duration: 54904us
+NULL
+2HKEVENTID     4
+3HKCALLCOUNT     32
+3HKTOTALTIME     178us
+3HKLAST          Last Callback
+4HKCALLSITE        jvmtiHook.c:740
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.389
+4HKDURATION        Duration: 3us
+3HKLONGST        Longest Callback
+4HKCALLSITE        jvmtiHook.c:740
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.242
+4HKDURATION        Duration: 19us
+NULL
+2HKEVENTID     6
+3HKCALLCOUNT     21
+3HKTOTALTIME     15us
+3HKLAST          Last Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6589
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.389
+4HKDURATION        Duration: 1us
+3HKLONGST        Longest Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6589
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.325
+4HKDURATION        Duration: 2us
+NULL
+2HKEVENTID     10
+3HKCALLCOUNT     2
+3HKTOTALTIME     34us
+3HKLAST          Last Callback
+4HKCALLSITE        trigger.c:1120
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.421
+4HKDURATION        Duration: 3us
+3HKLONGST        Longest Callback
+4HKCALLSITE        trigger.c:1120
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.421
+4HKDURATION        Duration: 31us
+NULL
+2HKEVENTID     17
+3HKCALLCOUNT     28
+3HKTOTALTIME     1249us
+3HKLAST          Last Callback
+4HKCALLSITE        sunvmi.c:1303
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.388
+4HKDURATION        Duration: 1us
+3HKLONGST        Longest Callback
+4HKCALLSITE        jvmtiHook.c:1636
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.237
+4HKDURATION        Duration: 1223us
+NULL
+2HKEVENTID     24
+3HKCALLCOUNT     2
+3HKTOTALTIME     3us
+3HKLAST          Last Callback
+4HKCALLSITE        vmhook.c:69
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.243
+4HKDURATION        Duration: 1us
+3HKLONGST        Longest Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/runtime/codertinit.cpp:238
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.243
+4HKDURATION        Duration: 2us
+NULL
+2HKEVENTID     35
+3HKCALLCOUNT     9148
+3HKTOTALTIME     0us
+NULL
+2HKEVENTID     38
+3HKCALLCOUNT     1
+3HKTOTALTIME     2us
+3HKLAST          Last Callback
+4HKCALLSITE        jvmtiHook.c:1660
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.330
+4HKDURATION        Duration: 2us
+3HKLONGST        Longest Callback
+4HKCALLSITE        jvmtiHook.c:1660
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.330
+4HKDURATION        Duration: 2us
+NULL
+2HKEVENTID     50
+3HKCALLCOUNT     2352
+3HKTOTALTIME     0us
+NULL
+2HKEVENTID     51
+3HKCALLCOUNT     486
+3HKTOTALTIME     3966us
+3HKLAST          Last Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6553
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.430
+4HKDURATION        Duration: 8us
+3HKLONGST        Longest Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6553
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.262
+4HKDURATION        Duration: 309us
+NULL
+2HKEVENTID     52
+3HKCALLCOUNT     486
+3HKTOTALTIME     337us
+3HKLAST          Last Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6554
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.430
+4HKDURATION        Duration: 0us
+3HKLONGST        Longest Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6554
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.274
+4HKDURATION        Duration: 2us
+NULL
+2HKEVENTID     56
+3HKCALLCOUNT     607
+3HKTOTALTIME     6629us
+3HKLAST          Last Callback
+4HKCALLSITE        shrinit.cpp:3501
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.432
+4HKDURATION        Duration: 9us
+3HKLONGST        Longest Callback
+4HKCALLSITE        shrinit.cpp:3501
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.251
+4HKDURATION        Duration: 293us
+NULL
+2HKEVENTID     58
+3HKCALLCOUNT     1974
+3HKTOTALTIME     4333us
+3HKLAST          Last Callback
+4HKCALLSITE        common/mgmtinit.c:133
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.429
+4HKDURATION        Duration: 1us
+3HKLONGST        Longest Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6552
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.427
+4HKDURATION        Duration: 86us
+NULL
+2HKEVENTID     63
+3HKCALLCOUNT     1
+3HKTOTALTIME     1us
+3HKLAST          Last Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6618
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.319
+4HKDURATION        Duration: 1us
+3HKLONGST        Longest Callback
+4HKCALLSITE        /home/adoptopenjdk/workspace/build-scripts/jobs/jdk8u/jdk8u-linux-x64-openj9/workspace/build/src/build/linux-x86_64-normal-server-release/vm/compiler/../compiler/control/HookedByTheJit.cpp:6618
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.319
+4HKDURATION        Duration: 1us
+NULL
+2HKEVENTID     64
+3HKCALLCOUNT     1
+3HKTOTALTIME     801us
+3HKLAST          Last Callback
+4HKCALLSITE        sunvmi.c:1298
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.270
+4HKDURATION        Duration: 801us
+3HKLONGST        Longest Callback
+4HKCALLSITE        sunvmi.c:1298
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.270
+4HKDURATION        Duration: 801us
+NULL
+1HKINTERFACE   J9VMZipCachePoolHookInterface
+NULL           ------------------------------------------------------------------------
+2HKEVENTID     1
+3HKCALLCOUNT     10
+3HKTOTALTIME     56us
+3HKLAST          Last Callback
+4HKCALLSITE        shrinit.cpp:3651
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.250
+4HKDURATION        Duration: 3us
+3HKLONGST        Longest Callback
+4HKCALLSITE        shrinit.cpp:3651
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.249
+4HKDURATION        Duration: 19us
+NULL
+1HKINTERFACE   J9JITHookInterface
+NULL           ------------------------------------------------------------------------
+2HKEVENTID     3
+3HKCALLCOUNT     327
+3HKTOTALTIME     1141us
+3HKLAST          Last Callback
+4HKCALLSITE        common/mgmtinit.c:193
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.427
+4HKDURATION        Duration: 3us
+3HKLONGST        Longest Callback
+4HKCALLSITE        common/mgmtinit.c:193
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.381
+4HKDURATION        Duration: 18us
+NULL
+2HKEVENTID     4
+3HKCALLCOUNT     326
+3HKTOTALTIME     1344us
+3HKLAST          Last Callback
+4HKCALLSITE        common/mgmtinit.c:196
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.427
+4HKDURATION        Duration: 12us
+3HKLONGST        Longest Callback
+4HKCALLSITE        common/mgmtinit.c:196
+4HKSTARTTIME       Start Time: 2021-04-16T11:06:14.401
+4HKDURATION        Duration: 99us
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       SHARED CLASSES subcomponent dump routine
+NULL           ========================================
+NULL
+1SCLTEXTCRTW       Cache Created With
+NULL               ------------------
+NULL
+2SCLTEXTXNL            -Xnolinenumbers       = false
+2SCLTEXTBCI            BCI Enabled           = true
+2SCLTEXTBCI            Restrict Classpaths   = false
+NULL
+1SCLTEXTCSUM       Cache Summary
+NULL               ------------------
+NULL
+2SCLTEXTNLC            No line number content                    = false
+2SCLTEXTLNC            Line number content                       = true
+NULL
+2SCLTEXTRCS            ROMClass start address                    = 0x00007FA0AC059000
+2SCLTEXTRCE            ROMClass end address                      = 0x00007FA0AC479F38
+2SCLTEXTMSA            Metadata start address                    = 0x00007FA0AF2A1CD0
+2SCLTEXTCEA            Cache end address                         = 0x00007FA0B0000000
+2SCLTEXTRTF            Runtime flags                             = 0x80102001ECA6229B
+2SCLTEXTCGN            Cache generation                          = 41
+NULL
+2SCLTEXTCSZ            Cache size                                = 67108256
+2SCLTEXTSMB            Softmx bytes                              = 67108256
+2SCLTEXTFRB            Free bytes                                = 48397720
+2SCLTEXTARB            Reserved space for AOT bytes              = -1
+2SCLTEXTAMB            Maximum space for AOT bytes               = -1
+2SCLTEXTJRB            Reserved space for JIT data bytes         = -1
+2SCLTEXTJMB            Maximum space for JIT data bytes          = -1
+2SCLTEXTRWB            ReadWrite bytes                           = 363936
+2SCLTEXTMDA            Metadata bytes                            = 1221428
+2SCLTEXTDAS            Class debug area size                     = 5337088
+2SCLTEXTDAU            Class debug area % used                   = 7%
+2SCLTEXTDAN            Class LineNumberTable bytes               = 378482
+2SCLTEXTDAV            Class LocalVariableTable bytes            = 23988
+2SCLTEXTRCB            ROMClass bytes                            = 4329272
+2SCLTEXTAOB            AOT code bytes                            = 6215448
+2SCLTEXTADB            AOT data bytes                            = 280
+2SCLTEXTAHB            AOT class hierarchy bytes                 = 40248
+2SCLTEXTATB            AOT thunk bytes                           = 19480
+2SCLTEXTJHB            JIT hint bytes                            = 21724
+2SCLTEXTJPB            JIT profile bytes                         = 197344
+2SCLTEXTNOB            Java Object bytes                         = 0
+2SCLTEXTZCB            Zip cache bytes                           = 950968
+2SCLTEXTSHB            Startup hint bytes                        = 13320
+2SCLTEXTJCB            JCL data bytes                            = 0
+2SCLTEXTBDA            Byte data bytes                           = 0
+NULL
+2SCLTEXTNRC            Number ROMClasses                         = 1934
+2SCLTEXTNAM            Number AOT Methods                        = 1271
+2SCLTEXTNAD            Number AOT Data Entries                   = 1
+2SCLTEXTNAH            Number AOT Class Hierarchy                = 636
+2SCLTEXTNAT            Number AOT Thunks                         = 339
+2SCLTEXTNJH            Number JIT Hints                          = 831
+2SCLTEXTNJP            Number JIT Profiles                       = 1431
+2SCLTEXTNCP            Number Classpaths                         = 1
+2SCLTEXTNUR            Number URLs                               = 0
+2SCLTEXTNTK            Number Tokens                             = 0
+2SCLTEXTNOJ            Number Java Objects                       = 0
+2SCLTEXTNZC            Number Zip Caches                         = 5
+2SCLTEXTNSH            Number Startup Hint Entries               = 111
+2SCLTEXTNJC            Number JCL Entries                        = 0
+2SCLTEXTNST            Number Stale classes                      = 0
+2SCLTEXTPST            Percent Stale classes                     = 0
+NULL
+2SCLTEXTCPF            Cache is 27% full
+NULL
+1SCLTEXTCMST       Cache Memory Status
+NULL               ------------------
+1SCLTEXTCNTD           Cache Name                    Feature                  Memory type              Cache path
+NULL
+2SCLTEXTCMDT           sharedcc_eciyyy               CR                       Memory mapped file       /home/eciyyy/javasharedresources/C290M4F1A64P_sharedcc_eciyyy_G41L00
+NULL
+1SCLTEXTCMST       Cache Lock Status
+NULL               ------------------
+1SCLTEXTCNTD           Lock Name                     Lock type                TID owning lock
+NULL
+2SCLTEXTCWRL           Cache write lock              File lock                0x000000000000AA00
+2SCLTEXTCRWL           Cache read/write lock         File lock                Unowned
+NULL
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       CLASSES subcomponent dump routine
+NULL           =================================
+1CLTEXTCLLOS   	Classloader summaries
+1CLTEXTCLLSS   		12345678: 1=primordial,2=extension,3=shareable,4=middleware,5=system,6=trusted,7=application,8=delegating
+2CLTEXTCLLOADER		p---st-- Loader *System*(0x00000000FFF252A8)
+3CLNMBRLOADEDLIB		Number of loaded libraries 7
+3CLNMBRLOADEDCL			Number of loaded classes 652
+3CLNMBRSHAREDCL			Number of shared classes 595
+2CLTEXTCLLOADER		----st-- Loader java/lang/InternalAnonymousClassLoader(0x00000000FFF255F0), Parent *none*(0x0000000000000000)
+3CLNMBRLOADEDLIB		Number of loaded libraries 0
+3CLNMBRLOADEDCL			Number of loaded classes 0
+3CLNMBRSHAREDCL			Number of shared classes 0
+2CLTEXTCLLOADER		-----ta- Loader sun/misc/Launcher$AppClassLoader(0x00000000FFF3EC28), Parent sun/misc/Launcher$ExtClassLoader(0x00000000FFF312E0)
+3CLNMBRLOADEDLIB		Number of loaded libraries 0
+3CLNMBRLOADEDCL			Number of loaded classes 5
+2CLTEXTCLLOADER		-x--st-- Loader sun/misc/Launcher$ExtClassLoader(0x00000000FFF312E0), Parent *none*(0x0000000000000000)
+3CLNMBRLOADEDLIB		Number of loaded libraries 0
+3CLNMBRLOADEDCL			Number of loaded classes 0
+2CLTEXTCLLOADER		-----t-- Loader sun/reflect/DelegatingClassLoader(0x00000000FFF9B7D8), Parent sun/misc/Launcher$AppClassLoader(0x00000000FFF3EC28)
+3CLNMBRLOADEDLIB		Number of loaded libraries 0
+3CLNMBRLOADEDCL			Number of loaded classes 1
+1CLTEXTCLLIB   	ClassLoader loaded libraries
+2CLTEXTCLLIB    	Loader *System*(0x00000000FFF252A8)
+3CLTEXTLIB   			/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/jclse29
+3CLTEXTLIB   			/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/java
+3CLTEXTLIB   			/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/zip
+3CLTEXTLIB   			/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/compressedrefs/j9jit29
+3CLTEXTLIB   			/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/instrument
+3CLTEXTLIB   			/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/nio
+3CLTEXTLIB   			/home/eciyyy/.sdkman/candidates/java/8.0.282.j9-adpt/jre/lib/amd64/net
+1CLTEXTCLLOD   	ClassLoader loaded classes
+2CLTEXTCLLOAD  		Loader *System*(0x00000000FFF252A8)
+3CLTEXTCLASS   			sun/reflect/SerializationConstructorAccessorImpl(0x00000000001A6F00 shared)
+3CLTEXTCLASS   			sun/reflect/DelegatingClassLoader(0x00000000001A6B00 shared)
+3CLTEXTCLASS   			sun/reflect/ClassDefiner$1(0x00000000001A6700 shared)
+3CLTEXTCLASS   			sun/reflect/ClassDefiner(0x00000000001A6300 shared)
+3CLTEXTCLASS   			sun/reflect/MethodAccessorGenerator$1(0x00000000001A5F00 shared)
+3CLTEXTCLASS   			sun/reflect/Label$PatchInfo(0x00000000001A5D00 shared)
+3CLTEXTCLASS   			sun/reflect/Label(0x00000000001A5900 shared)
+3CLTEXTCLASS   			sun/reflect/UTF8(0x00000000001A5500 shared)
+3CLTEXTCLASS   			sun/reflect/ClassFileAssembler(0x00000000001A5000 shared)
+3CLTEXTCLASS   			sun/reflect/ByteVectorImpl(0x00000000001A3A00 shared)
+3CLTEXTCLASS   			sun/reflect/ByteVector(0x00000000001A3700 shared)
+3CLTEXTCLASS   			sun/reflect/ByteVectorFactory(0x00000000001A3400 shared)
+3CLTEXTCLASS   			sun/reflect/MethodAccessorGenerator(0x00000000001A3000 shared)
+3CLTEXTCLASS   			sun/reflect/AccessorGenerator(0x00000000001A2100 shared)
+3CLTEXTCLASS   			sun/reflect/ClassFileConstants(0x00000000001A1300 shared)
+3CLTEXTCLASS   			[Ljava/lang/reflect/Constructor;(0x00000000001A0E00)
+3CLTEXTCLASS   			java/util/ComparableTimSort(0x00000000001A0C00 shared)
+3CLTEXTCLASS   			java/util/Arrays$LegacyMergeSort(0x00000000001A0400 shared)
+3CLTEXTCLASS   			java/lang/NoSuchFieldException(0x00000000001A0100 shared)
+3CLTEXTCLASS   			com/ibm/oti/vm/MsgHelp(0x000000000019FE00 shared)
+3CLTEXTCLASS   			java/io/ObjectStreamClass$3(0x000000000019F800 shared)
+3CLTEXTCLASS   			com/ibm/oti/util/PriviAction(0x000000000019EF00 shared)
+3CLTEXTCLASS   			java/io/Externalizable(0x000000000019EC00 shared)
+3CLTEXTCLASS   			com/ibm/oti/util/Msg(0x000000000019E700 shared)
+3CLTEXTCLASS   			java/lang/reflect/Proxy$ProxyClassFactory(0x000000000019E500 shared)
+3CLTEXTCLASS   			java/lang/reflect/Proxy$KeyFactory(0x000000000019DE00 shared)
+3CLTEXTCLASS   			java/util/function/BiFunction(0x000000000019DB00 shared)
+3CLTEXTCLASS   			java/lang/reflect/WeakCache(0x000000000019D800 shared)
+3CLTEXTCLASS   			java/lang/reflect/InvocationHandler(0x000000000019D300 shared)
+3CLTEXTCLASS   			java/lang/reflect/Proxy(0x000000000019CF00 shared)
+3CLTEXTCLASS   			java/io/ObjectStreamClass$EntryFuture(0x000000000019C500 shared)
+3CLTEXTCLASS   			java/io/ObjectStreamClass$WeakClassKey(0x000000000019C200 shared)
+3CLTEXTCLASS   			java/lang/NoSuchMethodError(0x000000000019BC00 shared)
+3CLTEXTCLASS   			java/lang/IncompatibleClassChangeError(0x000000000019B800 shared)
+3CLTEXTCLASS   			java/io/ObjectStreamClass$1(0x000000000019B400 shared)
+3CLTEXTCLASS   			sun/nio/cs/US_ASCII$Decoder(0x000000000019AD00 shared)
+3CLTEXTCLASS   			java/net/SocketInputStream(0x000000000019A800 shared)
+3CLTEXTCLASS   			[Lsun/nio/fs/NativeBuffer;(0x000000000019A200)
+3CLTEXTCLASS   			java/io/ObjectStreamClass(0x0000000000199E00 shared)
+3CLTEXTCLASS   			java/io/Bits(0x0000000000197100 shared)
+3CLTEXTCLASS   			java/io/ObjectOutputStream$ReplaceTable(0x0000000000196B00 shared)
+3CLTEXTCLASS   			java/net/Socket$2(0x0000000000196800 shared)
+3CLTEXTCLASS   			java/io/ObjectOutputStream$HandleTable(0x0000000000196300 shared)
+3CLTEXTCLASS   			java/io/DataOutputStream(0x0000000000195A00 shared)
+3CLTEXTCLASS   			java/io/ObjectOutputStream$BlockDataOutputStream(0x0000000000195300 shared)
+3CLTEXTCLASS   			sun/nio/fs/NativeBuffer$Deallocator(0x0000000000194B00 shared)
+3CLTEXTCLASS   			sun/nio/fs/NativeBuffer(0x0000000000194600 shared)
+3CLTEXTCLASS   			java/io/ObjectOutputStream(0x0000000000194200 shared)
+3CLTEXTCLASS   			java/io/ObjectStreamClass$Caches(0x0000000000193D00 shared)
+3CLTEXTCLASS   			java/io/ObjectStreamConstants(0x0000000000192000 shared)
+3CLTEXTCLASS   			java/io/ObjectOutput(0x0000000000191E00 shared)
+3CLTEXTCLASS   			java/io/DataOutput(0x0000000000191C00 shared)
+3CLTEXTCLASS   			sun/net/sdp/SdpProvider(0x0000000000191700 shared)
+3CLTEXTCLASS   			sun/net/NetHooks$Provider(0x0000000000190D00 shared)
+3CLTEXTCLASS   			sun/nio/fs/NativeBuffers(0x0000000000190A00 shared)
+3CLTEXTCLASS   			sun/net/NetHooks(0x0000000000190400 shared)
+3CLTEXTCLASS   			java/util/ArrayList$Itr(0x0000000000190000 shared)
+3CLTEXTCLASS   			java/util/HashMap$KeyIterator(0x000000000018FD00 shared)
+3CLTEXTCLASS   			[Ljava/net/Proxy$Type;(0x000000000018FA00)
+3CLTEXTCLASS   			java/util/HashMap$HashIterator(0x000000000018F600 shared)
+3CLTEXTCLASS   			java/net/Proxy$Type(0x000000000018F200 shared)
+3CLTEXTCLASS   			java/util/HashMap$KeySet(0x000000000018EC00 shared)
+3CLTEXTCLASS   			java/net/Proxy(0x000000000018E600 shared)
+3CLTEXTCLASS   			sun/net/spi/DefaultProxySelector$3(0x000000000018E300 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixFileAttributeViews$Posix(0x000000000018DA00 shared)
+3CLTEXTCLASS   			sun/net/spi/DefaultProxySelector$NonProxyInfo(0x000000000018D100 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixFileAttributeViews$Basic(0x000000000018CC00 shared)
+3CLTEXTCLASS   			sun/nio/fs/AbstractBasicFileAttributeView(0x000000000018C900 shared)
+3CLTEXTCLASS   			sun/nio/fs/DynamicFileAttributeView(0x000000000018C300 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixFileAttributeViews(0x000000000018C100 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/UserDefinedFileAttributeView(0x000000000017DC00 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/DosFileAttributeView(0x000000000017D900 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/PosixFileAttributeView(0x000000000017D600 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/FileOwnerAttributeView(0x000000000017D300 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/BasicFileAttributeView(0x000000000017D100 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/FileAttributeView(0x000000000017CF00 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/AttributeView(0x000000000017CD00 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/DosFileAttributes(0x000000000017CA00 shared)
+3CLTEXTCLASS   			java/nio/file/Files(0x000000000017C800 shared)
+3CLTEXTCLASS   			[Ljava/nio/file/LinkOption;(0x000000000017A800)
+3CLTEXTCLASS   			java/nio/file/LinkOption(0x000000000017A400 shared)
+3CLTEXTCLASS   			java/nio/file/CopyOption(0x000000000017A200 shared)
+3CLTEXTCLASS   			java/nio/file/OpenOption(0x000000000017A000 shared)
+3CLTEXTCLASS   			java/nio/file/FileSystems$DefaultFileSystemHolder$1(0x0000000000179D00 shared)
+3CLTEXTCLASS   			java/nio/file/FileSystems$DefaultFileSystemHolder(0x0000000000179A00 shared)
+3CLTEXTCLASS   			java/nio/file/FileSystems(0x0000000000179500 shared)
+3CLTEXTCLASS   			java/nio/file/Paths(0x0000000000178F00 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/Advertisement(0x0000000000178800 shared)
+3CLTEXTCLASS   			java/util/Properties$LineReader(0x0000000000177D00 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/TargetDirectory(0x0000000000177900 shared)
+3CLTEXTCLASS   			sun/net/NetProperties$1(0x0000000000177100 shared)
+3CLTEXTCLASS   			sun/net/NetProperties(0x0000000000176E00 shared)
+3CLTEXTCLASS   			sun/net/spi/DefaultProxySelector$1(0x0000000000176800 shared)
+3CLTEXTCLASS   			[[Ljava/lang/String;(0x0000000000176600)
+3CLTEXTCLASS   			sun/net/spi/DefaultProxySelector(0x0000000000176400 shared)
+3CLTEXTCLASS   			java/net/ProxySelector(0x0000000000175A00 shared)
+3CLTEXTCLASS   			java/net/SocksSocketImpl$3(0x0000000000175700 shared)
+3CLTEXTCLASS   			sun/launcher/LauncherHelper$FXHelper(0x0000000000175400 shared)
+3CLTEXTCLASS   			java/net/SocketException(0x0000000000174D00 shared)
+3CLTEXTCLASS   			java/io/IOException(0x0000000000174A00 shared)
+3CLTEXTCLASS   			java/net/Inet6Address$Inet6AddressHolder(0x0000000000174200 shared)
+3CLTEXTCLASS   			java/net/Inet6Address(0x0000000000173E00 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/CommonDirectory$DirectorySampler(0x0000000000172D00 shared)
+3CLTEXTCLASS   			java/io/FileFilter(0x0000000000172B00 shared)
+3CLTEXTCLASS   			java/net/AbstractPlainSocketImpl$1(0x0000000000172800 shared)
+3CLTEXTCLASS   			java/net/SocksSocketImpl(0x0000000000172000 shared)
+3CLTEXTCLASS   			java/net/SocksConsts(0x0000000000170D00 shared)
+3CLTEXTCLASS   			java/net/PlainSocketImpl(0x0000000000170300 shared)
+3CLTEXTCLASS   			java/net/AbstractPlainSocketImpl(0x000000000016FD00 shared)
+3CLTEXTCLASS   			java/net/SocketImpl(0x000000000016E700 shared)
+3CLTEXTCLASS   			java/net/SocketOptions(0x000000000016E000 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/FileLock$syncObject(0x000000000016DE00 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath$FileLoader$1(0x0000000000169800 shared)
+3CLTEXTCLASS   			java/net/Inet4Address(0x0000000000169000 shared)
+3CLTEXTCLASS   			[Ljava/net/InetAddress;(0x0000000000168D00)
+3CLTEXTCLASS   			java/net/InetAddress$2(0x0000000000168A00 shared)
+3CLTEXTCLASS   			sun/net/spi/nameservice/NameService(0x0000000000168800 shared)
+3CLTEXTCLASS   			java/net/Inet6AddressImpl(0x0000000000168200 shared)
+3CLTEXTCLASS   			java/net/InetAddressImpl(0x0000000000167F00 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/CommonDirectory$syncObject(0x0000000000167C00 shared)
+3CLTEXTCLASS   			[Lsun/launcher/LauncherHelper;(0x0000000000167A00)
+3CLTEXTCLASS   			java/net/InetAddressImplFactory(0x0000000000167700 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/CommonDirectory(0x0000000000167500 shared)
+3CLTEXTCLASS   			sun/launcher/LauncherHelper(0x0000000000166500 shared)
+3CLTEXTCLASS   			[Ljava/net/InetAddress$Cache$Type;(0x0000000000164B00)
+3CLTEXTCLASS   			java/net/InetAddress$Cache$Type(0x0000000000164700 shared)
+3CLTEXTCLASS   			java/net/InetAddress$Cache(0x0000000000164400 shared)
+3CLTEXTCLASS   			java/net/InetAddress$InetAddressHolder(0x0000000000163E00 shared)
+3CLTEXTCLASS   			java/util/IdentityHashMap(0x0000000000163B00 shared)
+3CLTEXTCLASS   			java/lang/ApplicationShutdownHooks$1(0x0000000000162C00 shared)
+3CLTEXTCLASS   			java/lang/ApplicationShutdownHooks(0x0000000000162900 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/AttachHandler$teardownHook(0x0000000000162300 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/IPC$syncObject(0x0000000000161C00 shared)
+3CLTEXTCLASS   			java/util/RegularEnumSet(0x0000000000161400 shared)
+3CLTEXTCLASS   			java/lang/Class$4(0x0000000000161000 shared)
+3CLTEXTCLASS   			[Ljava/lang/reflect/Member;(0x0000000000160E00)
+3CLTEXTCLASS   			java/lang/Class$EnumVars(0x0000000000160B00 shared)
+3CLTEXTCLASS   			java/net/InetAddress$1(0x0000000000160800 shared)
+3CLTEXTCLASS   			[Ljava/lang/Enum;(0x0000000000160600)
+3CLTEXTCLASS   			java/util/EnumSet(0x0000000000160000 shared)
+3CLTEXTCLASS   			sun/security/action/GetBooleanAction(0x000000000015F800 shared)
+3CLTEXTCLASS   			[Ljava/nio/file/attribute/PosixFilePermission;(0x000000000015F600)
+3CLTEXTCLASS   			java/nio/file/attribute/PosixFilePermission(0x000000000015F200 shared)
+3CLTEXTCLASS   			java/net/InetSocketAddress$InetSocketAddressHolder(0x000000000015EF00 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/IPC(0x000000000015E700 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/AttachHandler$AttachStateSync(0x000000000015D600 shared)
+3CLTEXTCLASS   			java/net/InetAddress(0x000000000015D200 shared)
+3CLTEXTCLASS   			[Lopenj9/internal/tools/attach/target/AttachHandler$AttachStateValues;(0x000000000015BA00)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/AttachHandler$AttachStateValues(0x000000000015B600 shared)
+3CLTEXTCLASS   			java/net/InetSocketAddress(0x000000000015B300 shared)
+3CLTEXTCLASS   			java/net/SocketAddress(0x000000000015A900 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/AttachHandler$syncObject(0x000000000015A700 shared)
+3CLTEXTCLASS   			java/net/Socket(0x000000000015A300 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/FileLock(0x0000000000156200 shared)
+3CLTEXTCLASS   			openj9/internal/tools/attach/target/AttachHandler(0x0000000000154500 shared)
+3CLTEXTCLASS   			[Ljava/security/ProtectionDomain;(0x0000000000153400)
+3CLTEXTCLASS   			java/lang/IllegalArgumentException(0x0000000000153100 shared)
+3CLTEXTCLASS   			java/lang/NoSuchMethodException(0x0000000000152D00 shared)
+3CLTEXTCLASS   			sun/instrument/InstrumentationImpl$1(0x0000000000152A00 shared)
+3CLTEXTCLASS   			sun/reflect/DelegatingMethodAccessorImpl(0x0000000000152800 shared)
+3CLTEXTCLASS   			sun/reflect/NativeMethodAccessorImpl(0x0000000000152300 shared)
+3CLTEXTCLASS   			java/lang/Class$ReflectCache(0x0000000000151B00 shared)
+3CLTEXTCLASS   			java/lang/Class$CacheKey(0x0000000000151500 shared)
+3CLTEXTCLASS   			sun/reflect/UnsafeObjectFieldAccessorImpl(0x0000000000150A00 shared)
+3CLTEXTCLASS   			sun/reflect/UnsafeFieldAccessorImpl(0x0000000000150000 shared)
+3CLTEXTCLASS   			sun/reflect/FieldAccessorImpl(0x000000000014F400 shared)
+3CLTEXTCLASS   			sun/reflect/FieldAccessor(0x000000000014F100 shared)
+3CLTEXTCLASS   			sun/reflect/UnsafeFieldAccessorFactory(0x000000000014EC00 shared)
+3CLTEXTCLASS   			sun/reflect/ReflectionFactory$1(0x0000000000146100 shared)
+3CLTEXTCLASS   			[Ljava/security/Principal;(0x0000000000145F00)
+3CLTEXTCLASS   			java/security/Principal(0x0000000000145C00 shared)
+3CLTEXTCLASS   			java/security/ProtectionDomain$Key(0x0000000000145A00 shared)
+3CLTEXTCLASS   			java/security/BasicPermissionCollection(0x0000000000145700 shared)
+3CLTEXTCLASS   			java/security/UnresolvedPermission(0x0000000000144D00 shared)
+3CLTEXTCLASS   			java/security/AllPermission(0x0000000000144200 shared)
+3CLTEXTCLASS   			java/io/FilePermissionCollection(0x0000000000143E00 shared)
+3CLTEXTCLASS   			java/io/FilePermission$1(0x0000000000143600 shared)
+3CLTEXTCLASS   			java/net/URI$Parser(0x0000000000143400 shared)
+3CLTEXTCLASS   			java/net/URI(0x0000000000142400 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixMountEntry(0x0000000000140100 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixFileStoreAttributes(0x000000000013FD00 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixFileAttributes(0x000000000013F900 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/PosixFileAttributes(0x000000000013EE00 shared)
+3CLTEXTCLASS   			java/nio/file/attribute/BasicFileAttributes(0x000000000013EB00 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixNativeDispatcher$1(0x000000000013E900 shared)
+3CLTEXTCLASS   			sun/nio/fs/Util(0x000000000013D600 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixPath(0x000000000013D000 shared)
+3CLTEXTCLASS   			sun/nio/fs/AbstractPath(0x000000000013B600 shared)
+3CLTEXTCLASS   			java/nio/file/Path(0x000000000013B300 shared)
+3CLTEXTCLASS   			java/nio/file/Watchable(0x000000000013AD00 shared)
+3CLTEXTCLASS   			sun/nio/fs/LinuxFileSystem(0x000000000013A700 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixFileSystem(0x000000000013A000 shared)
+3CLTEXTCLASS   			java/nio/file/FileSystem(0x0000000000139500 shared)
+3CLTEXTCLASS   			sun/nio/fs/LinuxFileSystemProvider(0x0000000000138D00 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixFileSystemProvider(0x0000000000138500 shared)
+3CLTEXTCLASS   			sun/nio/fs/AbstractFileSystemProvider(0x0000000000137400 shared)
+3CLTEXTCLASS   			java/nio/file/spi/FileSystemProvider(0x0000000000137000 shared)
+3CLTEXTCLASS   			sun/nio/fs/UnixNativeDispatcher(0x0000000000136100 shared)
+3CLTEXTCLASS   			sun/nio/fs/DefaultFileSystemProvider(0x0000000000135F00 shared)
+3CLTEXTCLASS   			java/io/FilePermission(0x0000000000135800 shared)
+3CLTEXTCLASS   			sun/net/www/MessageHeader(0x0000000000135000 shared)
+3CLTEXTCLASS   			sun/net/www/protocol/file/FileURLConnection(0x0000000000134000 shared)
+3CLTEXTCLASS   			sun/net/www/URLConnection(0x0000000000132D00 shared)
+3CLTEXTCLASS   			java/net/URLConnection(0x0000000000132800 shared)
+3CLTEXTCLASS   			java/security/Permissions(0x0000000000131100 shared)
+3CLTEXTCLASS   			java/security/PermissionCollection(0x0000000000130700 shared)
+3CLTEXTCLASS   			sun/nio/ByteBuffered(0x0000000000130500 shared)
+3CLTEXTCLASS   			sun/misc/ASCIICaseInsensitiveComparator(0x0000000000130000 shared)
+3CLTEXTCLASS   			java/util/jar/Attributes$Name(0x000000000012FC00 shared)
+3CLTEXTCLASS   			java/util/jar/Manifest$FastInputStream(0x000000000012F200 shared)
+3CLTEXTCLASS   			java/util/jar/Attributes(0x000000000012EB00 shared)
+3CLTEXTCLASS   			java/util/jar/Manifest(0x000000000012E000 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath$JarLoader$2(0x000000000012D400 shared)
+3CLTEXTCLASS   			sun/misc/Resource(0x000000000012CD00 shared)
+3CLTEXTCLASS   			sun/nio/cs/ThreadLocalCoders$2(0x000000000012C900 shared)
+3CLTEXTCLASS   			sun/nio/cs/ThreadLocalCoders$1(0x000000000012C500 shared)
+3CLTEXTCLASS   			sun/nio/cs/ThreadLocalCoders$Cache(0x000000000012C100 shared)
+3CLTEXTCLASS   			sun/nio/cs/ThreadLocalCoders(0x000000000012BE00 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath$FileLoader(0x000000000012BB00 shared)
+3CLTEXTCLASS   			sun/misc/IOUtils(0x000000000012B500 shared)
+3CLTEXTCLASS   			java/util/zip/ZipFile$ZipFileInflaterInputStream(0x000000000012AD00 shared)
+3CLTEXTCLASS   			java/util/zip/InflaterInputStream(0x000000000012A800 shared)
+3CLTEXTCLASS   			java/util/zip/ZStreamRef(0x000000000012A200 shared)
+3CLTEXTCLASS   			java/util/zip/Inflater(0x0000000000129F00 shared)
+3CLTEXTCLASS   			java/util/zip/ZipFile$ZipFileInputStream(0x0000000000129200 shared)
+3CLTEXTCLASS   			java/util/jar/JarFile$JarFileEntry(0x0000000000128D00 shared)
+3CLTEXTCLASS   			java/util/jar/JarEntry(0x0000000000128700 shared)
+3CLTEXTCLASS   			java/util/zip/ZipEntry(0x0000000000128300 shared)
+3CLTEXTCLASS   			sun/misc/ExtensionDependency(0x0000000000127800 shared)
+3CLTEXTCLASS   			sun/misc/JarIndex(0x0000000000126000 shared)
+3CLTEXTCLASS   			java/nio/DirectLongBufferU(0x0000000000125500 shared)
+3CLTEXTCLASS   			java/nio/LongBuffer(0x0000000000124800 shared)
+3CLTEXTCLASS   			java/nio/DirectByteBuffer$Deallocator(0x0000000000124200 shared)
+3CLTEXTCLASS   			java/nio/DirectByteBuffer(0x0000000000123D00 shared)
+3CLTEXTCLASS   			sun/nio/ch/DirectBuffer(0x0000000000122400 shared)
+3CLTEXTCLASS   			java/nio/MappedByteBuffer(0x0000000000121C00 shared)
+3CLTEXTCLASS   			sun/misc/PerfCounter$CoreCounters(0x0000000000121600 shared)
+3CLTEXTCLASS   			sun/misc/Perf(0x0000000000121100 shared)
+3CLTEXTCLASS   			sun/misc/Perf$GetPerfAction(0x0000000000120C00 shared)
+3CLTEXTCLASS   			sun/misc/PerfCounter(0x0000000000120900 shared)
+3CLTEXTCLASS   			java/util/zip/ZipCoder(0x0000000000120000 shared)
+3CLTEXTCLASS   			java/util/ArrayDeque(0x000000000011F500 shared)
+3CLTEXTCLASS   			java/util/Deque(0x000000000011E700 shared)
+3CLTEXTCLASS   			java/util/Queue(0x000000000011DF00 shared)
+3CLTEXTCLASS   			sun/nio/cs/UTF_16(0x000000000011DC00 shared)
+3CLTEXTCLASS   			sun/nio/cs/UTF_16LE(0x000000000011D700 shared)
+3CLTEXTCLASS   			sun/nio/cs/UTF_16BE(0x000000000011D300 shared)
+3CLTEXTCLASS   			sun/nio/cs/ISO_8859_1(0x000000000011CE00 shared)
+3CLTEXTCLASS   			sun/nio/cs/US_ASCII(0x000000000011CA00 shared)
+3CLTEXTCLASS   			java/nio/charset/StandardCharsets(0x000000000011C600 shared)
+3CLTEXTCLASS   			java/util/jar/JavaUtilJarAccessImpl(0x000000000011C100 shared)
+3CLTEXTCLASS   			sun/misc/JavaUtilJarAccess(0x000000000011BD00 shared)
+3CLTEXTCLASS   			java/util/jar/JarFile(0x000000000011BA00 shared)
+3CLTEXTCLASS   			sun/misc/FileURLMapper(0x000000000011A700 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath$JarLoader$1(0x000000000011A400 shared)
+3CLTEXTCLASS   			java/security/PrivilegedActionException(0x0000000000119D00 shared)
+3CLTEXTCLASS   			java/util/zip/ZipFile$1(0x0000000000119900 shared)
+3CLTEXTCLASS   			sun/misc/JavaUtilZipFileAccess(0x0000000000119700 shared)
+3CLTEXTCLASS   			java/util/zip/ZipFile(0x0000000000119500 shared)
+3CLTEXTCLASS   			java/util/zip/ZipConstants(0x0000000000118000 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath$JarLoader(0x0000000000117D00 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath$Loader(0x0000000000116900 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath$3(0x0000000000116400 shared)
+3CLTEXTCLASS   			sun/net/util/URLUtil(0x00000000000F8000 shared)
+3CLTEXTCLASS   			java/net/URLClassLoader$ClassFinder(0x00000000000F7900 shared)
+3CLTEXTCLASS   			[Lsun/instrument/TransformerManager$TransformerInfo;(0x00000000000F7700)
+3CLTEXTCLASS   			sun/instrument/TransformerManager$TransformerInfo(0x00000000000F7500 shared)
+3CLTEXTCLASS   			sun/instrument/TransformerManager(0x00000000000F6F00 shared)
+3CLTEXTCLASS   			com/ibm/oti/util/Util(0x00000000000F6C00 shared)
+3CLTEXTCLASS   			sun/instrument/InstrumentationImpl(0x00000000000F6100 shared)
+3CLTEXTCLASS   			java/lang/instrument/Instrumentation(0x00000000000F5400 shared)
+3CLTEXTCLASS   			java/lang/InternalError(0x00000000000F4F00 shared)
+3CLTEXTCLASS   			java/lang/Shutdown$Lock(0x00000000000F4C00 shared)
+3CLTEXTCLASS   			[Ljava/lang/Runnable;(0x00000000000F4A00)
+3CLTEXTCLASS   			java/lang/Shutdown(0x00000000000F4600 shared)
+3CLTEXTCLASS   			com/ibm/jvm/TracePermission(0x00000000000F4100 shared)
+3CLTEXTCLASS   			com/ibm/jvm/Trace(0x00000000000F3E00 shared)
+3CLTEXTCLASS   			java/lang/reflect/InvocationTargetException(0x00000000000F2400 shared)
+3CLTEXTCLASS   			java/lang/invoke/ILGenMacros(0x00000000000F2100 shared)
+3CLTEXTCLASS   			java/lang/invoke/ThunkKey(0x00000000000F1400 shared)
+3CLTEXTCLASS   			java/lang/invoke/ComputedCalls(0x00000000000F1200 shared)
+3CLTEXTCLASS   			com/ibm/oti/lang/ArgumentHelper(0x00000000000F0C00 shared)
+3CLTEXTCLASS   			java/lang/ClassLoader$ClassNameBasedLock(0x00000000000F0A00 shared)
+3CLTEXTCLASS   			java/lang/ThreadDeath(0x00000000000F0700 shared)
+3CLTEXTCLASS   			[Ljava/lang/Integer;(0x00000000000F0400)
+3CLTEXTCLASS   			java/lang/Integer$IntegerCache(0x00000000000F0000 shared)
+3CLTEXTCLASS   			sun/misc/NativeSignalHandler(0x00000000000EFD00 shared)
+3CLTEXTCLASS   			sun/misc/Signal(0x00000000000EF900 shared)
+3CLTEXTCLASS   			java/lang/Terminator$1(0x00000000000EF300 shared)
+3CLTEXTCLASS   			sun/misc/SignalHandler(0x00000000000EF000 shared)
+3CLTEXTCLASS   			java/lang/Terminator(0x00000000000EED00 shared)
+3CLTEXTCLASS   			java/lang/reflect/ReflectAccess(0x00000000000EE700 shared)
+3CLTEXTCLASS   			sun/reflect/LangReflectAccess(0x00000000000EE400 shared)
+3CLTEXTCLASS   			java/lang/reflect/Modifier(0x00000000000EDF00 shared)
+3CLTEXTCLASS   			sun/reflect/misc/ReflectUtil(0x00000000000ED800 shared)
+3CLTEXTCLASS   			java/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1(0x00000000000ECE00 shared)
+3CLTEXTCLASS   			java/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl(0x00000000000EC900 shared)
+3CLTEXTCLASS   			java/util/concurrent/atomic/AtomicReferenceFieldUpdater(0x00000000000EBE00 shared)
+3CLTEXTCLASS   			java/io/BufferedInputStream(0x00000000000EB900 shared)
+3CLTEXTCLASS   			java/io/FilterInputStream(0x00000000000EB100 shared)
+3CLTEXTCLASS   			java/lang/Class$5(0x00000000000EAD00 shared)
+3CLTEXTCLASS   			sun/misc/Launcher$AppClassLoader$1(0x00000000000EAA00 shared)
+3CLTEXTCLASS   			sun/misc/Launcher$AppClassLoader(0x00000000000EA100 shared)
+3CLTEXTCLASS   			java/util/Stack(0x00000000000E9A00 shared)
+3CLTEXTCLASS   			sun/misc/URLClassPath(0x00000000000E9600 shared)
+3CLTEXTCLASS   			java/security/AccessControlContext(0x00000000000E7E00 shared)
+3CLTEXTCLASS   			com/ibm/oti/shared/Shared$Monitor(0x00000000000E6D00 shared)
+3CLTEXTCLASS   			com/ibm/oti/shared/Shared(0x00000000000E6900 shared)
+3CLTEXTCLASS   			[Ljava/net/URL;(0x00000000000E6700)
+3CLTEXTCLASS   			sun/net/util/IPAddressUtil(0x00000000000E6400 shared)
+3CLTEXTCLASS   			java/net/Parts(0x00000000000E5A00 shared)
+3CLTEXTCLASS   			sun/util/locale/LocaleUtils(0x00000000000E5600 shared)
+3CLTEXTCLASS   			java/util/Locale$LocaleKey(0x00000000000E5000 shared)
+3CLTEXTCLASS   			sun/util/locale/LocaleObjectCache$CacheEntry(0x00000000000E4D00 shared)
+3CLTEXTCLASS   			sun/util/locale/BaseLocale$Key(0x00000000000E4900 shared)
+3CLTEXTCLASS   			sun/util/locale/BaseLocale$Cache(0x00000000000E4200 shared)
+3CLTEXTCLASS   			sun/util/locale/BaseLocale(0x00000000000E3E00 shared)
+3CLTEXTCLASS   			[Ljava/util/concurrent/ConcurrentHashMap$Node;(0x00000000000E3800)
+3CLTEXTCLASS   			java/util/concurrent/ConcurrentHashMap$Node(0x00000000000E3300 shared)
+3CLTEXTCLASS   			java/util/concurrent/ConcurrentHashMap$CounterCell(0x00000000000E3000 shared)
+3CLTEXTCLASS   			[Ljava/util/concurrent/ConcurrentHashMap$Segment;(0x00000000000E2E00)
+3CLTEXTCLASS   			java/util/concurrent/ConcurrentHashMap$Segment(0x00000000000E2B00 shared)
+3CLTEXTCLASS   			java/util/concurrent/locks/ReentrantLock(0x00000000000E2500 shared)
+3CLTEXTCLASS   			java/util/concurrent/locks/Lock(0x00000000000E1E00 shared)
+3CLTEXTCLASS   			java/util/concurrent/ConcurrentHashMap(0x00000000000E1A00 shared)
+3CLTEXTCLASS   			java/util/concurrent/ConcurrentMap(0x00000000000DF000 shared)
+3CLTEXTCLASS   			java/util/Locale$Cache(0x00000000000DEB00 shared)
+3CLTEXTCLASS   			sun/util/locale/LocaleObjectCache(0x00000000000DE600 shared)
+3CLTEXTCLASS   			java/util/Locale(0x00000000000DE100 shared)
+3CLTEXTCLASS   			java/net/URL(0x00000000000DC000 shared)
+3CLTEXTCLASS   			java/util/BitSet(0x00000000000DA900 shared)
+3CLTEXTCLASS   			sun/net/www/ParseUtil(0x00000000000D9700 shared)
+3CLTEXTCLASS   			java/io/FileInputStream$1(0x00000000000D8500 shared)
+3CLTEXTCLASS   			[Ljava/lang/reflect/Method;(0x00000000000D8300)
+3CLTEXTCLASS   			java/lang/Void(0x00000000000D0F00 shared)
+3CLTEXTCLASS   			java/lang/reflect/Array(0x00000000000D0D00 shared)
+3CLTEXTCLASS   			java/nio/charset/CoderResult$2(0x00000000000D0300 shared)
+3CLTEXTCLASS   			java/nio/charset/CoderResult$1(0x00000000000D0100 shared)
+3CLTEXTCLASS   			java/nio/charset/CoderResult$Cache(0x00000000000CFC00 shared)
+3CLTEXTCLASS   			java/nio/charset/CoderResult(0x00000000000CF800 shared)
+3CLTEXTCLASS   			java/nio/HeapCharBuffer(0x00000000000CEA00 shared)
+3CLTEXTCLASS   			java/nio/CharBuffer(0x00000000000CDE00 shared)
+3CLTEXTCLASS   			java/io/ExpiringCache$Entry(0x00000000000CD300 shared)
+3CLTEXTCLASS   			java/lang/StringCoding$StringDecoder(0x00000000000CD000 shared)
+3CLTEXTCLASS   			java/util/ArrayList(0x00000000000CC900 shared)
+3CLTEXTCLASS   			sun/nio/cs/UTF_8$Decoder(0x00000000000CB500 shared)
+3CLTEXTCLASS   			sun/nio/cs/ArrayDecoder(0x00000000000CAD00 shared)
+3CLTEXTCLASS   			java/nio/charset/CharsetDecoder(0x00000000000CAA00 shared)
+3CLTEXTCLASS   			sun/nio/cs/StreamDecoder(0x00000000000C9D00 shared)
+3CLTEXTCLASS   			java/io/FileInputStream(0x00000000000C8E00 shared)
+3CLTEXTCLASS   			java/io/InputStream(0x00000000000C8200 shared)
+3CLTEXTCLASS   			java/io/FileReader(0x00000000000C7F00 shared)
+3CLTEXTCLASS   			java/io/InputStreamReader(0x00000000000C7900 shared)
+3CLTEXTCLASS   			java/io/BufferedReader(0x00000000000C7400 shared)
+3CLTEXTCLASS   			java/io/Reader(0x00000000000C6A00 shared)
+3CLTEXTCLASS   			java/lang/Readable(0x00000000000C6700 shared)
+3CLTEXTCLASS   			[Ljava/io/File$PathStatus;(0x00000000000C6500)
+3CLTEXTCLASS   			java/io/File$PathStatus(0x00000000000C6200 shared)
+3CLTEXTCLASS   			java/lang/Enum(0x00000000000C5D00 shared)
+3CLTEXTCLASS   			sun/misc/MetaIndex(0x00000000000C5700 shared)
+3CLTEXTCLASS   			[Ljava/io/File;(0x00000000000C5100)
+3CLTEXTCLASS   			java/io/ExpiringCache$1(0x00000000000C4D00 shared)
+3CLTEXTCLASS   			java/util/LinkedHashMap(0x00000000000C4000 shared)
+3CLTEXTCLASS   			java/io/ExpiringCache(0x00000000000C3B00 shared)
+3CLTEXTCLASS   			java/io/UnixFileSystem(0x00000000000C3500 shared)
+3CLTEXTCLASS   			java/io/FileSystem(0x00000000000C2700 shared)
+3CLTEXTCLASS   			java/io/DefaultFileSystem(0x00000000000C2000 shared)
+3CLTEXTCLASS   			java/io/File(0x00000000000C1C00 shared)
+3CLTEXTCLASS   			java/util/StringTokenizer(0x00000000000C0000 shared)
+3CLTEXTCLASS   			sun/misc/Launcher$ExtClassLoader$1(0x00000000000BFA00 shared)
+3CLTEXTCLASS   			java/security/PrivilegedExceptionAction(0x00000000000BF800 shared)
+3CLTEXTCLASS   			java/net/URLClassLoader$6(0x00000000000BF500 shared)
+3CLTEXTCLASS   			sun/misc/JavaNetAccess(0x00000000000BF300 shared)
+3CLTEXTCLASS   			java/util/Vector(0x00000000000BEF00 shared)
+3CLTEXTCLASS   			sun/misc/Launcher$ExtClassLoader(0x00000000000BD900 shared)
+3CLTEXTCLASS   			java/net/URLClassLoader(0x00000000000BCB00 shared)
+3CLTEXTCLASS   			java/security/SecureClassLoader(0x00000000000BB100 shared)
+3CLTEXTCLASS   			sun/misc/Launcher$Factory(0x00000000000BAC00 shared)
+3CLTEXTCLASS   			java/net/URLStreamHandlerFactory(0x00000000000BAA00 shared)
+3CLTEXTCLASS   			sun/misc/Launcher(0x00000000000BA600 shared)
+3CLTEXTCLASS   			java/lang/InternalAnonymousClassLoader(0x00000000000B9D00 shared)
+3CLTEXTCLASS   			sun/net/www/protocol/file/Handler(0x00000000000B9800 shared)
+3CLTEXTCLASS   			sun/net/www/protocol/jar/Handler(0x00000000000B9200 shared)
+3CLTEXTCLASS   			java/net/URLStreamHandler(0x00000000000B8900 shared)
+3CLTEXTCLASS   			java/lang/ClassLoader$LazyInitLock(0x00000000000B8100 shared)
+3CLTEXTCLASS   			java/lang/ClassLoader$AssertionLock(0x00000000000B7E00 shared)
+3CLTEXTCLASS   			com/ibm/oti/vm/AbstractClassLoader$CacheLock(0x00000000000B7B00 shared)
+3CLTEXTCLASS   			com/ibm/oti/vm/BootstrapClassLoader(0x00000000000B7400 shared)
+3CLTEXTCLASS   			com/ibm/oti/vm/AbstractClassLoader(0x00000000000B6D00 shared)
+3CLTEXTCLASS   			java/security/ProtectionDomain$2(0x00000000000B6200 shared)
+3CLTEXTCLASS   			sun/misc/JavaSecurityProtectionDomainAccess(0x00000000000B6000 shared)
+3CLTEXTCLASS   			sun/security/util/Debug(0x00000000000B5C00 shared)
+3CLTEXTCLASS   			java/security/ProtectionDomain$JavaSecurityAccessImpl(0x00000000000B5000 shared)
+3CLTEXTCLASS   			sun/misc/JavaSecurityAccess(0x00000000000B4E00 shared)
+3CLTEXTCLASS   			java/security/ProtectionDomain(0x00000000000B4A00 shared)
+3CLTEXTCLASS   			java/util/Collections$SynchronizedMap(0x00000000000B3C00 shared)
+3CLTEXTCLASS   			[Ljava/util/WeakHashMap$Entry;(0x00000000000B3500)
+3CLTEXTCLASS   			java/util/WeakHashMap$Entry(0x00000000000B3000 shared)
+3CLTEXTCLASS   			java/lang/ClassLoader$ClassNameLockRef(0x00000000000B2C00 shared)
+3CLTEXTCLASS   			java/lang/Class$ReflectRef(0x00000000000B2800 shared)
+3CLTEXTCLASS   			sun/misc/Cleaner(0x00000000000B2300 shared)
+3CLTEXTCLASS   			java/lang/ref/PhantomReference(0x00000000000B2000 shared)
+3CLTEXTCLASS   			java/lang/ref/ReferenceQueue(0x00000000000B1C00 shared)
+3CLTEXTCLASS   			java/util/WeakHashMap(0x00000000000B1600 shared)
+3CLTEXTCLASS   			java/io/BufferedWriter(0x00000000000B0100 shared)
+3CLTEXTCLASS   			java/nio/Bits$1(0x00000000000AFE00 shared)
+3CLTEXTCLASS   			sun/misc/JavaNioAccess(0x00000000000AFC00 shared)
+3CLTEXTCLASS   			java/util/concurrent/atomic/AtomicLong(0x00000000000AF400 shared)
+3CLTEXTCLASS   			java/nio/ByteOrder(0x00000000000AF100 shared)
+3CLTEXTCLASS   			java/nio/Bits(0x00000000000AEF00 shared)
+3CLTEXTCLASS   			java/nio/HeapByteBuffer(0x00000000000AC300 shared)
+3CLTEXTCLASS   			java/nio/ByteBuffer(0x00000000000AB700 shared)
+3CLTEXTCLASS   			java/nio/Buffer(0x00000000000AA700 shared)
+3CLTEXTCLASS   			sun/nio/cs/StreamEncoder(0x00000000000A9C00 shared)
+3CLTEXTCLASS   			java/io/OutputStreamWriter(0x00000000000A9200 shared)
+3CLTEXTCLASS   			java/io/Writer(0x00000000000A8700 shared)
+3CLTEXTCLASS   			java/io/FileDescriptor$1(0x00000000000A8300 shared)
+3CLTEXTCLASS   			sun/misc/JavaIOFileDescriptorAccess(0x00000000000A8100 shared)
+3CLTEXTCLASS   			java/io/FileDescriptor(0x00000000000A7D00 shared)
+3CLTEXTCLASS   			java/io/FileOutputStream(0x00000000000A7800 shared)
+3CLTEXTCLASS   			java/io/BufferedOutputStream(0x00000000000A6E00 shared)
+3CLTEXTCLASS   			java/io/PrintStream(0x00000000000A6A00 shared)
+3CLTEXTCLASS   			java/io/FilterOutputStream(0x00000000000A5700 shared)
+3CLTEXTCLASS   			java/io/OutputStream(0x00000000000A5300 shared)
+3CLTEXTCLASS   			java/io/Flushable(0x00000000000A5100 shared)
+3CLTEXTCLASS   			java/io/Closeable(0x00000000000A4F00 shared)
+3CLTEXTCLASS   			java/lang/AutoCloseable(0x00000000000A4D00 shared)
+3CLTEXTCLASS   			java/nio/charset/CodingErrorAction(0x00000000000A4A00 shared)
+3CLTEXTCLASS   			sun/nio/cs/UTF_8$Encoder(0x00000000000A4500 shared)
+3CLTEXTCLASS   			sun/nio/cs/ArrayEncoder(0x00000000000A3F00 shared)
+3CLTEXTCLASS   			java/nio/charset/CharsetEncoder(0x00000000000A3C00 shared)
+3CLTEXTCLASS   			java/lang/StringCoding$StringEncoder(0x00000000000A2D00 shared)
+3CLTEXTCLASS   			java/lang/ref/Reference$1(0x00000000000A2700 shared)
+3CLTEXTCLASS   			sun/misc/JavaLangRefAccess(0x00000000000A2500 shared)
+3CLTEXTCLASS   			[Ljava/lang/ThreadLocal$ThreadLocalMap$Entry;(0x00000000000A2300)
+3CLTEXTCLASS   			java/lang/ThreadLocal$ThreadLocalMap$Entry(0x00000000000A2000 shared)
+3CLTEXTCLASS   			java/lang/ThreadLocal$ThreadLocalMap(0x00000000000A1D00 shared)
+3CLTEXTCLASS   			sun/nio/cs/UTF_8(0x00000000000A1400 shared)
+3CLTEXTCLASS   			sun/nio/cs/Unicode(0x00000000000A1100 shared)
+3CLTEXTCLASS   			sun/nio/cs/HistoricallyNamedCharset(0x00000000000A0800 shared)
+3CLTEXTCLASS   			sun/security/action/GetPropertyAction(0x00000000000A0400 shared)
+3CLTEXTCLASS   			sun/nio/cs/StandardCharsets$Cache(0x000000000009FE00 shared)
+3CLTEXTCLASS   			sun/nio/cs/StandardCharsets$Classes(0x000000000009FA00 shared)
+3CLTEXTCLASS   			sun/nio/cs/StandardCharsets$Aliases(0x000000000009F100 shared)
+3CLTEXTCLASS   			sun/util/PreHashedMap(0x000000000009DB00 shared)
+3CLTEXTCLASS   			sun/nio/cs/StandardCharsets(0x000000000009D700 shared)
+3CLTEXTCLASS   			sun/nio/cs/FastCharsetProvider(0x000000000009C300 shared)
+3CLTEXTCLASS   			java/nio/charset/spi/CharsetProvider(0x000000000009BE00 shared)
+3CLTEXTCLASS   			java/nio/charset/Charset(0x000000000009BB00 shared)
+3CLTEXTCLASS   			java/util/concurrent/atomic/AtomicInteger(0x000000000009A700 shared)
+3CLTEXTCLASS   			java/lang/ThreadLocal(0x000000000009A000 shared)
+3CLTEXTCLASS   			java/lang/StringCoding(0x0000000000099D00 shared)
+3CLTEXTCLASS   			sun/misc/SharedSecrets(0x0000000000099100 shared)
+3CLTEXTCLASS   			java/lang/Access(0x0000000000097F00 shared)
+3CLTEXTCLASS   			sun/misc/JavaLangAccess(0x0000000000097C00 shared)
+3CLTEXTCLASS   			jdk/internal/util/StaticProperty(0x0000000000097800 shared)
+3CLTEXTCLASS   			java/lang/CharacterDataLatin1(0x0000000000096F00 shared)
+3CLTEXTCLASS   			java/lang/CharacterData(0x0000000000096600 shared)
+3CLTEXTCLASS   			java/util/Hashtable$Enumerator(0x0000000000096300 shared)
+3CLTEXTCLASS   			java/util/Enumeration(0x0000000000095E00 shared)
+3CLTEXTCLASS   			java/util/Collections$SynchronizedSet(0x0000000000095900 shared)
+3CLTEXTCLASS   			java/util/Collections$SynchronizedCollection(0x0000000000094F00 shared)
+3CLTEXTCLASS   			java/util/Hashtable$EntrySet(0x0000000000094800 shared)
+3CLTEXTCLASS   			java/lang/StringBuilder(0x0000000000094200 shared)
+3CLTEXTCLASS   			java/lang/StringBuffer(0x0000000000092900 shared)
+3CLTEXTCLASS   			java/lang/Appendable(0x0000000000091200 shared)
+3CLTEXTCLASS   			java/lang/AbstractStringBuilder(0x0000000000091000 shared)
+3CLTEXTCLASS   			sun/misc/Version(0x0000000000090D00 shared)
+3CLTEXTCLASS   			[Ljava/lang/reflect/Field;(0x0000000000090200)
+3CLTEXTCLASS   			java/lang/RuntimePermission(0x000000000008FF00 shared)
+3CLTEXTCLASS   			sun/reflect/ReflectionFactory(0x000000000008FC00 shared)
+3CLTEXTCLASS   			java/security/AccessController(0x000000000008EA00 shared)
+3CLTEXTCLASS   			sun/reflect/ReflectionFactory$GetReflectionFactoryAction(0x000000000008DC00 shared)
+3CLTEXTCLASS   			java/security/PrivilegedAction(0x000000000008DA00 shared)
+3CLTEXTCLASS   			java/lang/reflect/ReflectPermission(0x000000000008D700 shared)
+3CLTEXTCLASS   			java/security/BasicPermission(0x000000000008D100 shared)
+3CLTEXTCLASS   			java/security/Permission(0x000000000008CB00 shared)
+3CLTEXTCLASS   			java/security/Guard(0x000000000008C900 shared)
+3CLTEXTCLASS   			java/lang/String$UnsafeHelpers(0x000000000008C600 shared)
+3CLTEXTCLASS   			java/lang/VMAccess(0x000000000008BF00 shared)
+3CLTEXTCLASS   			com/ibm/oti/vm/VMLangAccess(0x000000000008BC00 shared)
+3CLTEXTCLASS   			java/lang/Thread$ThreadLock(0x000000000008B700 shared)
+3CLTEXTCLASS   			java/lang/ThreadGroup$ChildrenThreadsLock(0x000000000008B500 shared)
+3CLTEXTCLASS   			java/lang/ThreadGroup$ChildrenGroupsLock(0x000000000008B200 shared)
+3CLTEXTCLASS   			[Ljava/lang/ThreadGroup;(0x000000000008B000)
+3CLTEXTCLASS   			[Ljava/lang/Thread;(0x000000000008AE00)
+3CLTEXTCLASS   			sun/reflect/MethodAccessorImpl(0x000000000008AB00 shared)
+3CLTEXTCLASS   			sun/reflect/MethodAccessor(0x000000000008A900 shared)
+3CLTEXTCLASS   			sun/reflect/ConstructorAccessorImpl(0x000000000008A700 shared)
+3CLTEXTCLASS   			sun/reflect/ConstructorAccessor(0x000000000008A500 shared)
+3CLTEXTCLASS   			sun/reflect/MagicAccessorImpl(0x000000000008A300 shared)
+3CLTEXTCLASS   			java/lang/invoke/MethodHandles$Lookup(0x000000000008A000 shared)
+3CLTEXTCLASS   			java/lang/Runtime(0x0000000000088400 shared)
+3CLTEXTCLASS   			java/lang/invoke/MethodHandleResolver(0x0000000000087900 shared)
+3CLTEXTCLASS   			java/util/Collections$UnmodifiableSet(0x0000000000086800 shared)
+3CLTEXTCLASS   			java/util/Collections$UnmodifiableCollection(0x0000000000085F00 shared)
+3CLTEXTCLASS   			java/util/Collections$EmptyMap(0x0000000000085700 shared)
+3CLTEXTCLASS   			java/util/Collections$EmptyList(0x0000000000084F00 shared)
+3CLTEXTCLASS   			java/util/Collections$EmptySet(0x0000000000084800 shared)
+3CLTEXTCLASS   			java/util/Collections(0x0000000000084500 shared)
+3CLTEXTCLASS   			java/util/HashMap$TreeNode(0x0000000000082A00 shared)
+3CLTEXTCLASS   			java/util/LinkedHashMap$Entry(0x0000000000082400 shared)
+3CLTEXTCLASS   			java/util/AbstractList$Itr(0x0000000000082000 shared)
+3CLTEXTCLASS   			java/util/Iterator(0x0000000000081E00 shared)
+3CLTEXTCLASS   			java/util/Objects(0x0000000000081900 shared)
+3CLTEXTCLASS   			java/util/Arrays$ArrayList(0x0000000000081200 shared)
+3CLTEXTCLASS   			java/util/RandomAccess(0x0000000000080F00 shared)
+3CLTEXTCLASS   			java/util/AbstractList(0x0000000000080200 shared)
+3CLTEXTCLASS   			java/util/List(0x000000000007FE00 shared)
+3CLTEXTCLASS   			java/util/Arrays(0x000000000007F800 shared)
+3CLTEXTCLASS   			java/util/HashSet(0x000000000007CD00 shared)
+3CLTEXTCLASS   			java/util/AbstractSet(0x000000000007C200 shared)
+3CLTEXTCLASS   			java/util/Set(0x000000000007BF00 shared)
+3CLTEXTCLASS   			java/util/AbstractCollection(0x000000000007B400 shared)
+3CLTEXTCLASS   			java/util/Collection(0x000000000007B000 shared)
+3CLTEXTCLASS   			java/lang/Iterable(0x000000000007AB00 shared)
+3CLTEXTCLASS   			java/lang/invoke/MethodTypeHelper(0x000000000007A800 shared)
+3CLTEXTCLASS   			com/ibm/oti/util/WeakReferenceNode(0x000000000007A000 shared)
+3CLTEXTCLASS   			java/lang/ref/WeakReference(0x0000000000079D00 shared)
+3CLTEXTCLASS   			java/lang/InternalRamClass(0x0000000000079A00 shared)
+3CLTEXTCLASS   			java/lang/invoke/MethodHandleCache(0x0000000000079800 shared)
+3CLTEXTCLASS   			java/lang/invoke/InvokeGenericHandle(0x0000000000079100 shared)
+3CLTEXTCLASS   			java/lang/invoke/ConstantDoubleHandle(0x0000000000078400 shared)
+3CLTEXTCLASS   			java/lang/invoke/ConstantLongHandle(0x0000000000077C00 shared)
+3CLTEXTCLASS   			java/lang/invoke/ConstantFloatHandle(0x0000000000077400 shared)
+3CLTEXTCLASS   			java/lang/invoke/ConstantIntHandle(0x0000000000076C00 shared)
+3CLTEXTCLASS   			java/lang/invoke/ConstantObjectHandle(0x0000000000076400 shared)
+3CLTEXTCLASS   			java/lang/invoke/ConstantHandle(0x0000000000075B00 shared)
+3CLTEXTCLASS   			java/lang/invoke/PermuteHandle(0x0000000000075200 shared)
+3CLTEXTCLASS   			java/lang/invoke/InsertHandle(0x0000000000074800 shared)
+3CLTEXTCLASS   			java/lang/invoke/ThunkTuple(0x0000000000074300 shared)
+3CLTEXTCLASS   			java/lang/invoke/PassThroughHandle(0x0000000000073F00 shared)
+3CLTEXTCLASS   			java/lang/invoke/MutableCallSite(0x0000000000073900 shared)
+3CLTEXTCLASS   			java/lang/invoke/VolatileCallSite(0x0000000000073200 shared)
+3CLTEXTCLASS   			java/lang/invoke/CallSite(0x0000000000072C00 shared)
+3CLTEXTCLASS   			java/lang/invoke/InvokeExactHandle(0x0000000000072400 shared)
+3CLTEXTCLASS   			java/lang/invoke/VarargsCollectorHandle(0x0000000000071700 shared)
+3CLTEXTCLASS   			java/lang/invoke/FilterReturnHandle(0x0000000000071100 shared)
+3CLTEXTCLASS   			java/lang/invoke/DynamicInvokerHandle(0x0000000000070600 shared)
+3CLTEXTCLASS   			java/lang/invoke/MethodType(0x0000000000070100 shared)
+3CLTEXTCLASS   			java/lang/invoke/SpreadHandle(0x000000000006E300 shared)
+3CLTEXTCLASS   			java/lang/invoke/CollectHandle(0x000000000006D700 shared)
+3CLTEXTCLASS   			java/lang/invoke/GuardWithTestHandle(0x000000000006CD00 shared)
+3CLTEXTCLASS   			java/lang/invoke/FilterArgumentsHandle(0x000000000006C200 shared)
+3CLTEXTCLASS   			java/lang/invoke/FoldHandle(0x000000000006B800 shared)
+3CLTEXTCLASS   			java/lang/invoke/ConvertHandle(0x000000000006B000 shared)
+3CLTEXTCLASS   			java/lang/invoke/ReceiverBoundHandle(0x000000000006A400 shared)
+3CLTEXTCLASS   			java/lang/invoke/DirectHandle(0x0000000000069800 shared)
+3CLTEXTCLASS   			java/lang/invoke/PrimitiveHandle(0x0000000000068700 shared)
+3CLTEXTCLASS   			java/util/concurrent/locks/AbstractOwnableSynchronizer(0x0000000000068300 shared)
+3CLTEXTCLASS   			java/lang/ref/SoftReference(0x0000000000068000 shared)
+3CLTEXTCLASS   			java/lang/ref/Reference(0x0000000000067A00 shared)
+3CLTEXTCLASS   			java/lang/ThreadGroup(0x0000000000067700 shared)
+3CLTEXTCLASS   			java/lang/Thread$UncaughtExceptionHandler(0x0000000000066700 shared)
+3CLTEXTCLASS   			java/lang/reflect/Constructor(0x0000000000065E00 shared)
+3CLTEXTCLASS   			java/lang/reflect/Method(0x0000000000064D00 shared)
+3CLTEXTCLASS   			java/lang/reflect/Executable(0x0000000000064000 shared)
+3CLTEXTCLASS   			java/lang/reflect/Field(0x0000000000062D00 shared)
+3CLTEXTCLASS   			java/lang/reflect/Member(0x0000000000061D00 shared)
+3CLTEXTCLASS   			java/lang/reflect/AccessibleObject(0x0000000000061800 shared)
+3CLTEXTCLASS   			java/lang/Long(0x0000000000060A00 shared)
+3CLTEXTCLASS   			java/lang/Integer(0x0000000000060000 shared)
+3CLTEXTCLASS   			java/lang/Short(0x000000000005ED00 shared)
+3CLTEXTCLASS   			java/lang/Character(0x000000000005E700 shared)
+3CLTEXTCLASS   			java/lang/Byte(0x000000000005CC00 shared)
+3CLTEXTCLASS   			java/lang/Boolean(0x000000000005C400 shared)
+3CLTEXTCLASS   			java/lang/ExceptionInInitializerError(0x000000000005BE00 shared)
+3CLTEXTCLASS   			java/lang/OutOfMemoryError(0x000000000005BA00 shared)
+3CLTEXTCLASS   			java/lang/NullPointerException(0x000000000005B700 shared)
+3CLTEXTCLASS   			java/lang/RuntimeException(0x000000000005B300 shared)
+3CLTEXTCLASS   			java/lang/NoClassDefFoundError(0x000000000005AF00 shared)
+3CLTEXTCLASS   			java/lang/LinkageError(0x000000000005AB00 shared)
+3CLTEXTCLASS   			java/lang/ClassNotFoundException(0x000000000005A700 shared)
+3CLTEXTCLASS   			java/lang/ReflectiveOperationException(0x000000000005A300 shared)
+3CLTEXTCLASS   			java/lang/Exception(0x000000000005A000 shared)
+3CLTEXTCLASS   			java/lang/StackOverflowError(0x0000000000059D00 shared)
+3CLTEXTCLASS   			java/lang/VirtualMachineError(0x0000000000059A00 shared)
+3CLTEXTCLASS   			java/lang/Error(0x0000000000059700 shared)
+3CLTEXTCLASS   			[Ljava/lang/StackTraceElement;(0x0000000000059400)
+3CLTEXTCLASS   			[Ljava/lang/Throwable;(0x0000000000059200)
+3CLTEXTCLASS   			java/lang/Throwable(0x0000000000058F00 shared)
+3CLTEXTCLASS   			java/lang/StackTraceElement(0x0000000000057A00 shared)
+3CLTEXTCLASS   			[Ljava/lang/Package;(0x0000000000057700)
+3CLTEXTCLASS   			java/lang/Package(0x0000000000057400 shared)
+3CLTEXTCLASS   			[Ljava/security/cert/Certificate;(0x0000000000056400)
+3CLTEXTCLASS   			java/security/cert/Certificate(0x0000000000055E00 shared)
+3CLTEXTCLASS   			java/security/CodeSource(0x0000000000055900 shared)
+3CLTEXTCLASS   			java/lang/ClassLoader(0x0000000000054C00 shared)
+3CLTEXTCLASS   			java/lang/Thread$TidLock(0x0000000000052B00 shared)
+3CLTEXTCLASS   			java/lang/Thread(0x0000000000052800 shared)
+3CLTEXTCLASS   			java/lang/Runnable(0x0000000000051000 shared)
+3CLTEXTCLASS   			[Ljava/io/ObjectStreamField;(0x0000000000050E00)
+3CLTEXTCLASS   			java/io/ObjectStreamField(0x0000000000050600 shared)
+3CLTEXTCLASS   			[[C(0x000000000004FF00)
+3CLTEXTCLASS   			java/lang/Double(0x000000000004FC00 shared)
+3CLTEXTCLASS   			java/lang/Math(0x000000000004F200 shared)
+3CLTEXTCLASS   			[Ljava/util/Hashtable$Entry;(0x000000000004E100)
+3CLTEXTCLASS   			java/util/Hashtable$Entry(0x000000000004DB00 shared)
+3CLTEXTCLASS   			[Ljava/lang/annotation/Annotation;(0x000000000004D900)
+3CLTEXTCLASS   			java/lang/annotation/Annotation(0x000000000004D700 shared)
+3CLTEXTCLASS   			[Ljava/lang/Class;(0x000000000004D500)
+3CLTEXTCLASS   			java/lang/Float(0x000000000004CF00 shared)
+3CLTEXTCLASS   			java/lang/Number(0x000000000004C700 shared)
+3CLTEXTCLASS   			java/util/Properties(0x000000000004C000 shared)
+3CLTEXTCLASS   			java/util/Hashtable(0x000000000004B500 shared)
+3CLTEXTCLASS   			java/util/Dictionary(0x000000000004A200 shared)
+3CLTEXTCLASS   			sun/misc/VM(0x0000000000049F00 shared)
+3CLTEXTCLASS   			[Ljava/lang/Object;(0x0000000000049500)
+3CLTEXTCLASS   			java/lang/System(0x0000000000049300 shared)
+3CLTEXTCLASS   			[Ljava/util/HashMap$Node;(0x0000000000047E00)
+3CLTEXTCLASS   			java/util/HashMap$Node(0x0000000000047900 shared)
+3CLTEXTCLASS   			java/util/Map$Entry(0x0000000000047700 shared)
+3CLTEXTCLASS   			java/lang/invoke/MethodHandle(0x0000000000046D00 shared)
+3CLTEXTCLASS   			java/util/HashMap(0x0000000000045500 shared)
+3CLTEXTCLASS   			java/util/AbstractMap(0x0000000000043E00 shared)
+3CLTEXTCLASS   			java/util/Map(0x0000000000043800 shared)
+3CLTEXTCLASS   			sun/reflect/Reflection(0x0000000000043000 shared)
+3CLTEXTCLASS   			[Ljava/lang/String;(0x0000000000042600)
+3CLTEXTCLASS   			sun/misc/Unsafe(0x0000000000042000 shared)
+3CLTEXTCLASS   			com/ibm/jit/JITHelpers(0x000000000003FF00 shared)
+3CLTEXTCLASS   			java/lang/String$CaseInsensitiveComparator(0x000000000003E000 shared)
+3CLTEXTCLASS   			java/util/Comparator(0x000000000003DD00 shared)
+3CLTEXTCLASS   			java/lang/String(0x000000000003D000 shared)
+3CLTEXTCLASS   			java/lang/CharSequence(0x000000000003A700 shared)
+3CLTEXTCLASS   			java/lang/Comparable(0x000000000003A500 shared)
+3CLTEXTCLASS   			[J(0x000000000003A300)
+3CLTEXTCLASS   			long(0x000000000003A100)
+3CLTEXTCLASS   			[I(0x0000000000039F00)
+3CLTEXTCLASS   			int(0x0000000000039D00)
+3CLTEXTCLASS   			[S(0x0000000000039B00)
+3CLTEXTCLASS   			short(0x0000000000039900)
+3CLTEXTCLASS   			[B(0x0000000000039700)
+3CLTEXTCLASS   			byte(0x0000000000039500)
+3CLTEXTCLASS   			[D(0x0000000000039300)
+3CLTEXTCLASS   			double(0x0000000000039100)
+3CLTEXTCLASS   			[F(0x0000000000038F00)
+3CLTEXTCLASS   			float(0x0000000000038D00)
+3CLTEXTCLASS   			[C(0x0000000000038800)
+3CLTEXTCLASS   			char(0x0000000000038600)
+3CLTEXTCLASS   			[Z(0x0000000000038400)
+3CLTEXTCLASS   			java/lang/Cloneable(0x0000000000038200 shared)
+3CLTEXTCLASS   			boolean(0x0000000000038000)
+3CLTEXTCLASS   			void(0x0000000000037E00)
+3CLTEXTCLASS   			java/lang/Class(0x0000000000037800 shared)
+3CLTEXTCLASS   			java/lang/reflect/Type(0x0000000000033900 shared)
+3CLTEXTCLASS   			java/lang/reflect/GenericDeclaration(0x0000000000033700 shared)
+3CLTEXTCLASS   			java/lang/reflect/AnnotatedElement(0x0000000000033400 shared)
+3CLTEXTCLASS   			java/io/Serializable(0x0000000000032F00 shared)
+3CLTEXTCLASS   			java/lang/J9VMInternals$ClassInitializationLock(0x0000000000032D00 shared)
+3CLTEXTCLASS   			com/ibm/oti/vm/VM(0x0000000000032B00 shared)
+3CLTEXTCLASS   			java/lang/J9VMInternals(0x0000000000031D00 shared)
+3CLTEXTCLASS   			java/lang/Object(0x0000000000030D00 shared)
+2CLTEXTCLLOAD  		Loader java/lang/InternalAnonymousClassLoader(0x00000000FFF255F0)
+2CLTEXTCLLOAD  		Loader sun/misc/Launcher$AppClassLoader(0x00000000FFF3EC28)
+3CLTEXTCLASS   			serial/Demo(0x0000000000147C00)
+3CLTEXTCLASS   			serial/contoh1(0x0000000000147A00)
+3CLTEXTCLASS   			com/intellij/rt/execution/application/AppMainV2$1(0x0000000000147100)
+3CLTEXTCLASS   			com/intellij/rt/execution/application/AppMainV2(0x0000000000146D00)
+3CLTEXTCLASS   			com/intellij/rt/execution/application/AppMainV2$Agent(0x0000000000146500)
+2CLTEXTCLLOAD  		Loader sun/misc/Launcher$ExtClassLoader(0x00000000FFF312E0)
+2CLTEXTCLLOAD  		Loader sun/reflect/DelegatingClassLoader(0x00000000FFF9B7D8)
+3CLTEXTCLASS   			sun/reflect/GeneratedSerializationConstructorAccessor1(0x0000000000007A00)
+NULL           ------------------------------------------------------------------------
+0SECTION       Javadump End section
+NULL           ---------------------- END OF DUMP -------------------------------------
