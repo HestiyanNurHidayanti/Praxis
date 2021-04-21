@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df428e0f-14e9-4406-895e-bb0b56f278ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../01-03/.idea/01-03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../01-03/.idea/modules/demo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ATM/ATMMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ATM/BalanceInquiry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ATM/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ATM/Withdraw.java" afterDir="false" />
+    <list default="true" id="df428e0f-14e9-4406-895e-bb0b56f278ba" name="Default Changelist" comment="OOP,ATM,UML">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +55,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ATMMachine" />
@@ -90,8 +69,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618905708206</updated>
-      <workItem from="1618905710736" duration="828000" />
+      <workItem from="1618905710736" duration="1476000" />
+      <workItem from="1618975678880" duration="284000" />
     </task>
+    <task id="LOCAL-00001" summary="OOP,ATM,UML">
+      <created>1618906591283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618906591284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +95,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OOP,ATM,UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP,ATM,UML" />
   </component>
 </project>
