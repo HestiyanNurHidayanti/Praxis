@@ -4,59 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dd2643c-9bde-4b07-96fa-d161d82ef882" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/RoundedRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/RoundedShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/RoundedSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/AbstractPattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Bottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/BuilderPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/ChickenBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/ColdDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/MealBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Packing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Pepsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/VegBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/BuilderPattern/Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Pattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Pattern/FactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Pattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Pattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Pattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/Pattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/PrototypePattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/SingletonPattern/SingleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/SingletonPattern/SingletonPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Praxis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-04/ATM/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-04/ATM/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01-04/ATM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-04/ATM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Array/latihan/forloop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Array/latihan/ifelse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Array/latihan/latihan2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Array/latihan/latihanarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Array/latihan/nyoba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Array/latihan/switcc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Array/latihan/whileloop.class" beforeDir="false" />
+    <list default="true" id="4dd2643c-9bde-4b07-96fa-d161d82ef882" name="Default Changelist" comment="Design Pattern">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,17 +76,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="01-05 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -174,8 +113,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618979279543</updated>
-      <workItem from="1618979284649" duration="8149000" />
+      <workItem from="1618979284649" duration="8810000" />
+      <workItem from="1619061179927" duration="237000" />
     </task>
+    <task id="LOCAL-00001" summary="Design Pattern">
+      <created>1618993710398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618993710398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,5 +139,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Pattern" />
   </component>
 </project>
